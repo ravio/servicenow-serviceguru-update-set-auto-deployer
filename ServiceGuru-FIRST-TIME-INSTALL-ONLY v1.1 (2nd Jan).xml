@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2020-01-02 16:40:56">
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2020-01-02 20:59:15">
 <sys_remote_update_set action="INSERT_OR_UPDATE">
 <application display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</application>
 <application_name>Auto Deployment - ServiceGuru</application_name>
@@ -9,26 +9,216 @@
 <deleted/>
 <description>WARNING - THIS UPDATE SET IS TO BE APPLIED ONLY DURING THE FIRST TIME INSTALL OR ELSE IT WILL REST THE SCHEDULED JOB AND PROPERTY CONFIGURATION FOR THIS TOOL.</description>
 <inserted/>
-<name>ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.2</name>
+<name>ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.1</name>
 <origin_sys_id/>
 <parent display_value=""/>
 <release_date/>
 <remote_base_update_set display_value=""/>
 <remote_parent_id/>
-<remote_sys_id>fbfc409edb0e0010c4271461399619c0</remote_sys_id>
+<remote_sys_id>16b63022db4a0010422ee9c94896190b</remote_sys_id>
 <state>loaded</state>
 <summary/>
 <sys_class_name>sys_remote_update_set</sys_class_name>
 <sys_created_by>service_guru_ravish</sys_created_by>
-<sys_created_on>2020-01-02 16:40:55</sys_created_on>
-<sys_id>0c805c26dbc20010c4271461399619b7</sys_id>
+<sys_created_on>2020-01-02 20:59:15</sys_created_on>
+<sys_id>379b0566db8a0010422ee9c94896194f</sys_id>
 <sys_mod_count>0</sys_mod_count>
 <sys_updated_by>service_guru_ravish</sys_updated_by>
-<sys_updated_on>2020-01-02 16:40:55</sys_updated_on>
+<sys_updated_on>2020-01-02 20:59:15</sys_updated_on>
 <update_set display_value=""/>
 <update_source display_value=""/>
 <updated/>
 </sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_43557a3a4f7c0c10ff6ab8de9310c77f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_properties action="INSERT_OR_UPDATE">
+<choices/>
+<description>Shared Non Orchestrator Instance credentials (Password) - This property sets the password for the User Profile used for Integration. This same Username and Password combination is used across all Non-Orchestrator environments.</description>
+<ignore_cache>false</ignore_cache>
+<is_private>false</is_private>
+<name>x_7756_update_set.non_prod_us_deployment_password</name>
+<read_roles/>
+<suffix>x_7756_update_set.non_prod_us_deployment_password</suffix>
+<sys_class_name>sys_properties</sys_class_name>
+<sys_created_by>rshetty</sys_created_by>
+<sys_created_on>2019-11-02 20:01:46</sys_created_on>
+<sys_id>43557a3a4f7c0c10ff6ab8de9310c77f</sys_id>
+<sys_mod_count>11</sys_mod_count>
+<sys_name>x_7756_update_set.non_prod_us_deployment_password</sys_name>
+<sys_package display_value="Auto Deployment - ServiceGuru" source="x_7756_update_set">870d48164fb00810ff6ab8de9310c78e</sys_package>
+<sys_policy/>
+<sys_scope display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</sys_scope>
+<sys_update_name>sys_properties_43557a3a4f7c0c10ff6ab8de9310c77f</sys_update_name>
+<sys_updated_by>service_guru_ravish</sys_updated_by>
+<sys_updated_on>2019-12-28 21:39:47</sys_updated_on>
+<type>password</type>
+<value/>
+<write_roles/>
+</sys_properties></record_update>]]></payload>
+<payload_hash>-1049703565</payload_hash>
+<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.1">379b0566db8a0010422ee9c94896194f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>service_guru_ravish</sys_created_by>
+<sys_created_on>2020-01-02 20:59:15</sys_created_on>
+<sys_id>339b0566db8a0010422ee9c948961951</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f67ba8d860000001</sys_recorded_at>
+<sys_updated_by>service_guru_ravish</sys_updated_by>
+<sys_updated_on>2020-01-02 20:59:15</sys_updated_on>
+<table/>
+<target_name>x_7756_update_set.non_prod_us_deployment_password</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>39c7adb1390240105ad95c1e21655210</update_guid>
+<update_guid_history>39c7adb1390240105ad95c1e21655210:-1049703565,d3da71ed1582001055848d4e72ca6fed:-1853320637,9f41ad65ea42001023b06b759cada994:-1049703565,d6ce99a1a3420010f94cabf5491bfedf:-1853320637,118c59e5218640109fc8f0307b5d7cd8:-1049703565,2e24a1d56e0a0010dce77d55f235ce93:-1853320637,eb632595c80a0010ce07cfc7fcc58684:-1049703565,7770d1151bc60010ba8d5b724e20db9a:-1853320637,398e4d5128c60010abc0ec528d6e9872:-1049703565,9bc0cd512c86001089f35798d2fa1584:-374881403,55dc7c51404680106e33198f59b100d6:1702097165,223c70515c46801066f435120692e44d:-1049703565,4b6385416646401008d6b05ceec7356b:-1853320637,2e72050117464010f11a90340c87a535:-1049703565,258eebf895ce00101b299ac4aa67170c:-374881403,70f423b80fce401072b73f79cc8946c1:1702097165,c1545738af8e401017a4f0c7c1db9162:451033513,c207a2b87fca4010e5f538bfdfb1f95d:630452949,5ac6ae784bca4010741db53a3c96b036:-1667930055,82e89ba835ce00102c3fa9f221923897:736572391,49b9c7a8888e0010afdd7d3e53490f1b:-277217575,693407645d8e00100c5b8aba06e6d960:736572391,10418b608d8e0010815391f7692a7835:630452949,0c68322ccb0a0010e9814a77111f9b43:736572391,b0f9c62c974600107352ec7ff0df61cc:-1667930055,ff2d3d64728a4010518316ea8135e555:736572391,7e0a5dec32c64010dea63db208da53ba:-1667930055,c53c0ed0654e0010ad9c7f074aeaab93:1149567585,a06c35d0530e00102a1c53fcf978eff3:1875865305,fbb2a998cc0e001062be99473fda3193:1149567585,442813b764f54410bfbb05639cad6780:2087321907,c7355bb36af5441080a225e7f5109d44:-1599845952,c2c3389ffd718010a397146e7106914d:2087321907,5492bc9b3e718010d83ec61df68fdeab:2073803868,4f8e108b187d0010e8a5b43a3e15ccfa:-1410456791,2ab9c79cc831c01018aa3408d46b23f6:140169815,4039152657650c10aa043f13eb5ffc34:2133946802,2ad8d1e2f0650c10c1808d52e5f21c1b:140169815,154ef204942100506dd5f6f62efc652b:779747532,be0bf28481edcc104faa413f90c2dbcd:-679225875,f77572ba7b7c0c108df9057fcc292ed8:1432787008</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_e6a2bc9bdb71801061aecd3f29961914</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_properties action="INSERT_OR_UPDATE">
+<choices/>
+<description>Production Only - This property sets the username for the User Profile used for Integration for the Production instance defined in the property x_7756_update_set.service_guru_production_instance.</description>
+<ignore_cache>false</ignore_cache>
+<is_private>false</is_private>
+<name>x_7756_update_set.prod_us_deployment_username</name>
+<read_roles/>
+<suffix>prod_us_deployment_username</suffix>
+<sys_class_name>sys_properties</sys_class_name>
+<sys_created_by>service_guru_ravish</sys_created_by>
+<sys_created_on>2019-12-23 16:50:25</sys_created_on>
+<sys_id>e6a2bc9bdb71801061aecd3f29961914</sys_id>
+<sys_mod_count>6</sys_mod_count>
+<sys_name>x_7756_update_set.prod_us_deployment_username</sys_name>
+<sys_package display_value="Auto Deployment - ServiceGuru" source="x_7756_update_set">870d48164fb00810ff6ab8de9310c78e</sys_package>
+<sys_policy/>
+<sys_scope display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</sys_scope>
+<sys_update_name>sys_properties_e6a2bc9bdb71801061aecd3f29961914</sys_update_name>
+<sys_updated_by>service_guru_ravish</sys_updated_by>
+<sys_updated_on>2019-12-28 21:39:47</sys_updated_on>
+<type>string</type>
+<value/>
+<write_roles/>
+</sys_properties></record_update>]]></payload>
+<payload_hash>-881930434</payload_hash>
+<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.1">379b0566db8a0010422ee9c94896194f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>service_guru_ravish</sys_created_by>
+<sys_created_on>2020-01-02 20:59:15</sys_created_on>
+<sys_id>339b0566db8a0010422ee9c948961954</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f67ba8d9e0000001</sys_recorded_at>
+<sys_updated_by>service_guru_ravish</sys_updated_by>
+<sys_updated_on>2020-01-02 20:59:15</sys_updated_on>
+<table/>
+<target_name>x_7756_update_set.prod_us_deployment_username</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>f5c7adb1e8024010697e71afe018b81b</update_guid>
+<update_guid_history>f5c7adb1e8024010697e71afe018b81b:-881930434,a3da71ed39820010f085dfcdd6cec1f8:-1911307887,5f41ad65f0420010f726ab74224fbc9f:-881930434,a6ce99a19442001074e0b3aedb6fd0ea:-1911307887,dd8c59e5c886401020ad7235e38c97e2:-881930434,ea24a1d59a0a00106f6e945ebaae4a9e:-1911307887,ab632595d70a0010a9d1fd470761e88f:-881930434,3770d115dec6001096a7c24a858596a5:-1911307887,3d8e4d5101c60010046a01d18f3f607d:-881930434,dbc0cd513c860010a7a4998c242d8b86:-205672451,d5dcbc51514680109358b3f3e0f5a34f:-355664858,ee3c7051f8468010ae5d54bf5902df57:-881930434,b9b724d5e6c280105c45825e51a0a7ac:-952437676,0b638541ef4640100847ce626d27b576:-1911307887,ea720501aa464010c02eb8ac5c568d40:-881930434,658eebf813ce0010d8a2e0f6a8027b0e:-952437676,b0f423b87fce40102b1cd2d7aea790c3:-355664858,1607a2b808ca40106fe49c81e44f115f:-55911111,6ec6ae7832ca40105186e93dfbfa8441:1201755055,06e89ba862ce0010046a84f9f0a5a1bb:-881930434,89b9c7a8a38e0010615348f3e094b81d:-55911111,a1340764e48e00107fca7fafabf8e591:-881930434,50418b60de8e00105001f4bb54cc7c37:-55911111,4468322cf20a00107991997cc28dbd4f:-881930434,f8f9c62c7446001052bb2a3b604e19d7:1201755055,732d3d641f8a40107d65dab22766207a:-881930434,720a5decc6c640102845caad4a9d4ec6:1201755055,093c0ed0944e0010fba86d47d35e0095:-355664858,e06c35d05d0e00107da283127f77d7f5:1089011370,33b2a998af0e001056c769c55d4bf796:-355664858,43189f779df54410bc1327736f17b64e:435066583,e13597b380f54410745b35c3d8802aff:-1648184222,92f0d6eb93f10410a7f7ce0577936e80:435066583,f9a3bc5f6e718010f4580fdd4567b460:-1654572735,b9c2bc9be3718010a673881cf8afda26:2044629207</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_02a2bc9bdb71801061aecd3f299619af</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_properties action="INSERT_OR_UPDATE">
+<choices/>
+<description>Production  Only - This property sets the Password for the User Profile used for Integration for the Production instance defined in the property x_7756_update_set.service_guru_production_instance.</description>
+<ignore_cache>false</ignore_cache>
+<is_private>false</is_private>
+<name>x_7756_update_set.prod_us_deployment_password</name>
+<read_roles/>
+<suffix>x_7756_update_set.prod_us_deployment_password</suffix>
+<sys_class_name>sys_properties</sys_class_name>
+<sys_created_by>service_guru_ravish</sys_created_by>
+<sys_created_on>2019-12-23 16:51:07</sys_created_on>
+<sys_id>02a2bc9bdb71801061aecd3f299619af</sys_id>
+<sys_mod_count>8</sys_mod_count>
+<sys_name>x_7756_update_set.prod_us_deployment_password</sys_name>
+<sys_package display_value="Auto Deployment - ServiceGuru" source="x_7756_update_set">870d48164fb00810ff6ab8de9310c78e</sys_package>
+<sys_policy/>
+<sys_scope display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</sys_scope>
+<sys_update_name>sys_properties_02a2bc9bdb71801061aecd3f299619af</sys_update_name>
+<sys_updated_by>service_guru_ravish</sys_updated_by>
+<sys_updated_on>2019-12-28 21:39:47</sys_updated_on>
+<type>password</type>
+<value/>
+<write_roles/>
+</sys_properties></record_update>]]></payload>
+<payload_hash>-1899390583</payload_hash>
+<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.1">379b0566db8a0010422ee9c94896194f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>service_guru_ravish</sys_created_by>
+<sys_created_on>2020-01-02 20:59:15</sys_created_on>
+<sys_id>379b0566db8a0010422ee9c948961950</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f67ba8d9a0000001</sys_recorded_at>
+<sys_updated_by>service_guru_ravish</sys_updated_by>
+<sys_updated_on>2020-01-02 20:59:15</sys_updated_on>
+<table/>
+<target_name>x_7756_update_set.prod_us_deployment_password</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>f1c7adb17002401063cb4c99569c0a19</update_guid>
+<update_guid_history>f1c7adb17002401063cb4c99569c0a19:-1899390583,afda71ed4d82001042ea0f7c8116c4f5:469507073,5b41ad650642001015340e911049ec9d:-1899390583,a2ce99a152420010999ce904a8288ee8:469507073,d98c59e5f58640106bb7c9bd0f5f05e0:-1899390583,e624a1d5560a0010dd48b4c7ba18f99c:469507073,a76325957a0a00103c78b48c024cd88d:-1899390583,3370d115cac60010b018b6cf63142fa3:469507073,398e4d51bdc60010e04276c059fcac7b:-1899390583,1fc0cd51dd860010a50cbf43a014a088:-1975089203,d1dc7c51fa468010557420d1557544d3:-187744493,ea3c70513846801030b28b83f5ebdf55:-1899390583,f5b724d5bfc28010e5ed88e73f59e5af:987457658,07638541c8464010106537709cf94474:469507073,e67205018b464010055af544e3e1e63e:-1899390583,a58eebf88cce0010fafdfd53d88a3410:987457658,b8f423b829ce4010fa1837097c75ead1:-187744493,5607a2b8e6ca4010645ee13b6a29b961:1009505419,6ac6ae786cca4010da56f56ff5bda13f:1797196220,02e89ba88cce001037cdea40a4c603b9:-1899390583,81b9c7a8698e0010fada0c32e5ddbe2c:-948052893,ad340764ac8e001093d10de4e3ebfc8e:-1899390583,90418b60508e001037953033ce1f7539:-948052893,0068322c370a0010bd4a0085fa3ced4d:-1899390583,b4f9c62c7d460010ae61bc51847c39d5:1797196220,7f2d3d644f8a40109ed89e0a924a5077:-1899390583,7e0a5dec9ac64010dd5ff540178e92c3:1797196220,013c0ed0684e0010e12bb1c2ea2fb9a4:-187744493,246c35d0190e00104f4fd33205ed52f7:297359463,44c2a9985c0e00104efadbdc48927c98:-187744493,06181f77a4f544104d54508d3b4d72ff:1517256178,1c3553b313f54410a5846c4e86e91620:1312084685,d00116ebe1f10410635c61fd995b8409:1517256178,63a3f09f27718010021508f575b4651e:-1202092274,1f93bc5f397180107ed3eab09f3d6958:-1439903102,70037c1f737180101223cfae33717b1a:-507744128,8cf2781fae718010cdef83ceba794cb3:-1468234299</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_category_7dd51bb3dbf5441061aecd3f299619e9</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_properties_category action="INSERT_OR_UPDATE"&gt;
+&lt;name&gt;ServiceGuru -Non Orchestrator Properties&lt;/name&gt;
+&lt;sys_class_name&gt;sys_properties_category&lt;/sys_class_name&gt;
+&lt;sys_created_by&gt;service_guru_ravish&lt;/sys_created_by&gt;
+&lt;sys_created_on&gt;2019-12-25 17:59:50&lt;/sys_created_on&gt;
+&lt;sys_id&gt;7dd51bb3dbf5441061aecd3f299619e9&lt;/sys_id&gt;
+&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;
+&lt;sys_name&gt;ServiceGuru -Non Orchestrator Properties&lt;/sys_name&gt;
+&lt;sys_package display_value="Auto Deployment - ServiceGuru" source="x_7756_update_set"&gt;870d48164fb00810ff6ab8de9310c78e&lt;/sys_package&gt;
+&lt;sys_policy/&gt;
+&lt;sys_scope display_value="Auto Deployment - ServiceGuru"&gt;870d48164fb00810ff6ab8de9310c78e&lt;/sys_scope&gt;
+&lt;sys_update_name&gt;sys_properties_category_7dd51bb3dbf5441061aecd3f299619e9&lt;/sys_update_name&gt;
+&lt;sys_updated_by&gt;service_guru_ravish&lt;/sys_updated_by&gt;
+&lt;sys_updated_on&gt;2019-12-25 18:03:09&lt;/sys_updated_on&gt;
+&lt;title&gt;&lt;![CDATA[&lt;p&gt;&lt;span style="color: #ff0000;"&gt;Important: The changes to properties on this page are local to this instance. You will need to perform the same property changes in respective ServiceNow instances where this tool is installed.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Contact: shettyravish&amp;#64;outlook.com for any custom tool modification requests.&lt;/p&gt;]]&gt;&lt;/title&gt;
+&lt;/sys_properties_category&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1723161303</payload_hash>
+<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.1">379b0566db8a0010422ee9c94896194f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>service_guru_ravish</sys_created_by>
+<sys_created_on>2020-01-02 20:59:15</sys_created_on>
+<sys_id>379b0566db8a0010422ee9c948961953</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f67ba8db50000001</sys_recorded_at>
+<sys_updated_by>service_guru_ravish</sys_updated_by>
+<sys_updated_on>2020-01-02 20:59:15</sys_updated_on>
+<table/>
+<target_name>ServiceGuru -Non Orchestrator Properties</target_name>
+<type>System Property Category</type>
+<update_domain>global</update_domain>
+<update_guid>a7c7adb12002401021e2447df9db7530</update_guid>
+<update_guid_history>a7c7adb12002401021e2447df9db7530:-1723161303,ac41e16501420010197e09b033a3f7de:-1723161303,57eaf0951b068010c377bc6aeaade288:-1723161303,d6824101af464010ae9b9d43503e917f:-1723161303,624723b0c9ce00109c3f9cbb7224a1de:479716585,57b4237849ce40101196a629b02a6b23:-1723161303,31a232b4070e4010ac5e76e7f9fcd409:-1735461350,5e965737e7f5441010667b4b8d2e7eb4:-660831212,d89697f366f544106098473f11b16a4e:723748846,2f76dff3e8f54410ac9eb678d626ffb8:471764156,71d51bb34df54410d2c26d450a6080eb:-660831212</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
 <sys_update_xml action="INSERT_OR_UPDATE">
 <action>INSERT_OR_UPDATE</action>
 <application display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</application>
@@ -74,15 +264,15 @@ function updateSetAutoDeployJob54543454() {
     }
 }]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sysauto_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;service_guru_ravish&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-12-23 15:56:00&lt;/sys_created_on&gt;&lt;sys_id&gt;1856ac9fdbfd401061aecd3f2996197e&lt;/sys_id&gt;&lt;sys_mod_count&gt;40&lt;/sys_mod_count&gt;&lt;sys_name&gt;ServiceGuru - Send emails&lt;/sys_name&gt;&lt;sys_package display_value="Auto Deployment - ServiceGuru" source="x_7756_update_set"&gt;870d48164fb00810ff6ab8de9310c78e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Auto Deployment - ServiceGuru"&gt;870d48164fb00810ff6ab8de9310c78e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysauto_script_1856ac9fdbfd401061aecd3f2996197e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;service_guru_ravish&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-12-31 15:07:12&lt;/sys_updated_on&gt;&lt;upgrade_safe&gt;false&lt;/upgrade_safe&gt;&lt;/sysauto_script&gt;&lt;/record_update&gt;</payload>
 <payload_hash>1671126381</payload_hash>
-<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.2">0c805c26dbc20010c4271461399619b7</remote_update_set>
+<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.1">379b0566db8a0010422ee9c94896194f</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>service_guru_ravish</sys_created_by>
-<sys_created_on>2020-01-02 16:40:55</sys_created_on>
-<sys_id>00805c26dbc20010c4271461399619b8</sys_id>
+<sys_created_on>2020-01-02 20:59:15</sys_created_on>
+<sys_id>3b9b0566db8a0010422ee9c94896194f</sys_id>
 <sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>16f6313a6a10000001</sys_recorded_at>
+<sys_recorded_at>16f67ba8dc80000001</sys_recorded_at>
 <sys_updated_by>service_guru_ravish</sys_updated_by>
-<sys_updated_on>2020-01-02 16:40:55</sys_updated_on>
+<sys_updated_on>2020-01-02 20:59:15</sys_updated_on>
 <table/>
 <target_name>ServiceGuru - Send emails</target_name>
 <type>Scheduled Script Execution</type>
@@ -123,15 +313,15 @@ function updateSetAutoDeployJob54543454() {
 <write_roles/>
 </sys_properties></record_update>]]></payload>
 <payload_hash>1332593120</payload_hash>
-<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.2">0c805c26dbc20010c4271461399619b7</remote_update_set>
+<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.1">379b0566db8a0010422ee9c94896194f</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>service_guru_ravish</sys_created_by>
-<sys_created_on>2020-01-02 16:40:55</sys_created_on>
-<sys_id>00805c26dbc20010c4271461399619bb</sys_id>
+<sys_created_on>2020-01-02 20:59:15</sys_created_on>
+<sys_id>3b9b0566db8a0010422ee9c948961952</sys_id>
 <sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>16f6313a64d0000001</sys_recorded_at>
+<sys_recorded_at>16f67ba8d810000001</sys_recorded_at>
 <sys_updated_by>service_guru_ravish</sys_updated_by>
-<sys_updated_on>2020-01-02 16:40:55</sys_updated_on>
+<sys_updated_on>2020-01-02 20:59:15</sys_updated_on>
 <table/>
 <target_name>x_7756_update_set.non_prod_us_deployment_on_switch</target_name>
 <type>System Property</type>
@@ -173,362 +363,21 @@ function updateSetAutoDeployJob54543454() {
 <write_roles/>
 </sys_properties></record_update>]]></payload>
 <payload_hash>1143345437</payload_hash>
-<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.2">0c805c26dbc20010c4271461399619b7</remote_update_set>
+<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.1">379b0566db8a0010422ee9c94896194f</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>service_guru_ravish</sys_created_by>
-<sys_created_on>2020-01-02 16:40:55</sys_created_on>
-<sys_id>04805c26dbc20010c4271461399619ba</sys_id>
+<sys_created_on>2020-01-02 20:59:15</sys_created_on>
+<sys_id>3f9b0566db8a0010422ee9c948961951</sys_id>
 <sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>16f6313a6200000001</sys_recorded_at>
+<sys_recorded_at>16f67ba8d5f0000001</sys_recorded_at>
 <sys_updated_by>service_guru_ravish</sys_updated_by>
-<sys_updated_on>2020-01-02 16:40:55</sys_updated_on>
+<sys_updated_on>2020-01-02 20:59:15</sys_updated_on>
 <table/>
 <target_name>x_7756_update_set.enable.logging</target_name>
 <type>System Property</type>
 <update_domain>global</update_domain>
 <update_guid>f1c76db1680240101f69fe8071f648fd</update_guid>
 <update_guid_history>f1c76db1680240101f69fe8071f648fd:1143345437,d7da71ed1082001028b6827a5b7196cd:-265803214,4b41ad652c420010e0e8f00d5e84a981:1143345437,92ce99a14942001050bc3231e1342dcc:-265803214,958c59e5338640108fe970557b2bbdc4:1143345437,2224a1d5700a0010e6abad2a75b5e274:-265803214,63632595090a0010f2c0ec7b6c3ed171:1143345437,7b70d115eec60010b128314a2beef77a:-265803214,358e4d511bc600105ea5c17fce490f5e:1143345437,a701055196860010f204545fd7c6e1a1:-258926798,d9dcbc51c3468010d294835878957054:-2014042083,2a3cfc11ce46801008f3743a0abea615:1143345437,4363c141dd4640102ceed6f50c9864c5:-265803214,ae72c101d546401023382eb11ee7240f:1143345437,618eabf447ce0010b71cae6b20e03ce4:-258926798,78f423b857ce4010fed347fc719edc95:-2014042083,16c6ae7889ca4010dc0980c00dc41c23:-265803214,8ee89ba803ce0010a08c25aa335e1e82:1143345437,c9b987a8c78e00104fe708230df4ffd6:-258926798,ad3407646b8e001074b709dfe1f77e3f:1143345437,cc418b60ca8e0010972f0fbae5999621:-258926798,8068fee8ff0a00102f47cced30ef7b37:1143345437,b0f9462c064600108c7e54bed82f717c:-265803214,732d3964068a40100655a153c3ae2f6c:1143345437,7a0a5dec92c64010df8f2d9e750b89a6:-265803214,3c3c0ed0034e001024169a44b43df280:-1456852747,206cf910200e0010192c17fbc04ce748:-1903520934,37b2a998ac0e001000c6c1fb5c4c9483:-1456852747,c56d133fdbf5441061919547a1aaa461:-1903520934,18cc8f6346390410ac7debe415ab2227:497995626,484cc72364390410ad6d98ff5f9370c0:1547662105,81a31aef44f10410bb2c2722dce31868:-1576290084,cf9396efb2f104105028f14e2bd40513:766171558,3432566f0df104105879922875a48a32:-754264518,b3e92cdf7e318010f9d01a8e98a963d3:-2022336114,387e9c4be87d0010f87567f1648526f8:-1151973732,22b9c79c2331c010007fa043fa7363ea:366274035,4c39152690650c105cf9f95482667b31:1895720584,6ed811e2d1650c10b42296d76704f597:366274035,1cf950ae99e5c81011791b90ac7490ed:-1151973732,ae9a5392e42d8810e7d3d2cce47e0690:366274035</update_guid_history>
-<update_set display_value=""/>
-<view/>
-</sys_update_xml>
-<sys_update_xml action="INSERT_OR_UPDATE">
-<action>INSERT_OR_UPDATE</action>
-<application display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</application>
-<category>customer</category>
-<comments/>
-<name>sys_properties_43557a3a4f7c0c10ff6ab8de9310c77f</name>
-<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_properties action="INSERT_OR_UPDATE">
-<choices/>
-<description>Shared Non Orchestrator Instance credentials (Password) - This property sets the password for the User Profile used for Integration. This same Username and Password combination is used across all Non-Orchestrator environments.</description>
-<ignore_cache>false</ignore_cache>
-<is_private>false</is_private>
-<name>x_7756_update_set.non_prod_us_deployment_password</name>
-<read_roles/>
-<suffix>x_7756_update_set.non_prod_us_deployment_password</suffix>
-<sys_class_name>sys_properties</sys_class_name>
-<sys_created_by>rshetty</sys_created_by>
-<sys_created_on>2019-11-02 20:01:46</sys_created_on>
-<sys_id>43557a3a4f7c0c10ff6ab8de9310c77f</sys_id>
-<sys_mod_count>11</sys_mod_count>
-<sys_name>x_7756_update_set.non_prod_us_deployment_password</sys_name>
-<sys_package display_value="Auto Deployment - ServiceGuru" source="x_7756_update_set">870d48164fb00810ff6ab8de9310c78e</sys_package>
-<sys_policy/>
-<sys_scope display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</sys_scope>
-<sys_update_name>sys_properties_43557a3a4f7c0c10ff6ab8de9310c77f</sys_update_name>
-<sys_updated_by>service_guru_ravish</sys_updated_by>
-<sys_updated_on>2019-12-28 21:39:47</sys_updated_on>
-<type>password</type>
-<value/>
-<write_roles/>
-</sys_properties></record_update>]]></payload>
-<payload_hash>-1049703565</payload_hash>
-<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.2">0c805c26dbc20010c4271461399619b7</remote_update_set>
-<replace_on_upgrade>false</replace_on_upgrade>
-<sys_created_by>service_guru_ravish</sys_created_by>
-<sys_created_on>2020-01-02 16:40:55</sys_created_on>
-<sys_id>08805c26dbc20010c4271461399619b9</sys_id>
-<sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>16f6313a6520000001</sys_recorded_at>
-<sys_updated_by>service_guru_ravish</sys_updated_by>
-<sys_updated_on>2020-01-02 16:40:55</sys_updated_on>
-<table/>
-<target_name>x_7756_update_set.non_prod_us_deployment_password</target_name>
-<type>System Property</type>
-<update_domain>global</update_domain>
-<update_guid>39c7adb1390240105ad95c1e21655210</update_guid>
-<update_guid_history>39c7adb1390240105ad95c1e21655210:-1049703565,d3da71ed1582001055848d4e72ca6fed:-1853320637,9f41ad65ea42001023b06b759cada994:-1049703565,d6ce99a1a3420010f94cabf5491bfedf:-1853320637,118c59e5218640109fc8f0307b5d7cd8:-1049703565,2e24a1d56e0a0010dce77d55f235ce93:-1853320637,eb632595c80a0010ce07cfc7fcc58684:-1049703565,7770d1151bc60010ba8d5b724e20db9a:-1853320637,398e4d5128c60010abc0ec528d6e9872:-1049703565,9bc0cd512c86001089f35798d2fa1584:-374881403,55dc7c51404680106e33198f59b100d6:1702097165,223c70515c46801066f435120692e44d:-1049703565,4b6385416646401008d6b05ceec7356b:-1853320637,2e72050117464010f11a90340c87a535:-1049703565,258eebf895ce00101b299ac4aa67170c:-374881403,70f423b80fce401072b73f79cc8946c1:1702097165,c1545738af8e401017a4f0c7c1db9162:451033513,c207a2b87fca4010e5f538bfdfb1f95d:630452949,5ac6ae784bca4010741db53a3c96b036:-1667930055,82e89ba835ce00102c3fa9f221923897:736572391,49b9c7a8888e0010afdd7d3e53490f1b:-277217575,693407645d8e00100c5b8aba06e6d960:736572391,10418b608d8e0010815391f7692a7835:630452949,0c68322ccb0a0010e9814a77111f9b43:736572391,b0f9c62c974600107352ec7ff0df61cc:-1667930055,ff2d3d64728a4010518316ea8135e555:736572391,7e0a5dec32c64010dea63db208da53ba:-1667930055,c53c0ed0654e0010ad9c7f074aeaab93:1149567585,a06c35d0530e00102a1c53fcf978eff3:1875865305,fbb2a998cc0e001062be99473fda3193:1149567585,442813b764f54410bfbb05639cad6780:2087321907,c7355bb36af5441080a225e7f5109d44:-1599845952,c2c3389ffd718010a397146e7106914d:2087321907,5492bc9b3e718010d83ec61df68fdeab:2073803868,4f8e108b187d0010e8a5b43a3e15ccfa:-1410456791,2ab9c79cc831c01018aa3408d46b23f6:140169815,4039152657650c10aa043f13eb5ffc34:2133946802,2ad8d1e2f0650c10c1808d52e5f21c1b:140169815,154ef204942100506dd5f6f62efc652b:779747532,be0bf28481edcc104faa413f90c2dbcd:-679225875,f77572ba7b7c0c108df9057fcc292ed8:1432787008</update_guid_history>
-<update_set display_value=""/>
-<view/>
-</sys_update_xml>
-<sys_update_xml action="INSERT_OR_UPDATE">
-<action>INSERT_OR_UPDATE</action>
-<application display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</application>
-<category>customer</category>
-<comments/>
-<name>sys_properties_e6a2bc9bdb71801061aecd3f29961914</name>
-<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_properties action="INSERT_OR_UPDATE">
-<choices/>
-<description>Production Only - This property sets the username for the User Profile used for Integration for the Production instance defined in the property x_7756_update_set.service_guru_production_instance.</description>
-<ignore_cache>false</ignore_cache>
-<is_private>false</is_private>
-<name>x_7756_update_set.prod_us_deployment_username</name>
-<read_roles/>
-<suffix>prod_us_deployment_username</suffix>
-<sys_class_name>sys_properties</sys_class_name>
-<sys_created_by>service_guru_ravish</sys_created_by>
-<sys_created_on>2019-12-23 16:50:25</sys_created_on>
-<sys_id>e6a2bc9bdb71801061aecd3f29961914</sys_id>
-<sys_mod_count>6</sys_mod_count>
-<sys_name>x_7756_update_set.prod_us_deployment_username</sys_name>
-<sys_package display_value="Auto Deployment - ServiceGuru" source="x_7756_update_set">870d48164fb00810ff6ab8de9310c78e</sys_package>
-<sys_policy/>
-<sys_scope display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</sys_scope>
-<sys_update_name>sys_properties_e6a2bc9bdb71801061aecd3f29961914</sys_update_name>
-<sys_updated_by>service_guru_ravish</sys_updated_by>
-<sys_updated_on>2019-12-28 21:39:47</sys_updated_on>
-<type>string</type>
-<value/>
-<write_roles/>
-</sys_properties></record_update>]]></payload>
-<payload_hash>-881930434</payload_hash>
-<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.2">0c805c26dbc20010c4271461399619b7</remote_update_set>
-<replace_on_upgrade>false</replace_on_upgrade>
-<sys_created_by>service_guru_ravish</sys_created_by>
-<sys_created_on>2020-01-02 16:40:56</sys_created_on>
-<sys_id>08805c26dbc20010c4271461399619bc</sys_id>
-<sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>16f6313a6710000001</sys_recorded_at>
-<sys_updated_by>service_guru_ravish</sys_updated_by>
-<sys_updated_on>2020-01-02 16:40:56</sys_updated_on>
-<table/>
-<target_name>x_7756_update_set.prod_us_deployment_username</target_name>
-<type>System Property</type>
-<update_domain>global</update_domain>
-<update_guid>f5c7adb1e8024010697e71afe018b81b</update_guid>
-<update_guid_history>f5c7adb1e8024010697e71afe018b81b:-881930434,a3da71ed39820010f085dfcdd6cec1f8:-1911307887,5f41ad65f0420010f726ab74224fbc9f:-881930434,a6ce99a19442001074e0b3aedb6fd0ea:-1911307887,dd8c59e5c886401020ad7235e38c97e2:-881930434,ea24a1d59a0a00106f6e945ebaae4a9e:-1911307887,ab632595d70a0010a9d1fd470761e88f:-881930434,3770d115dec6001096a7c24a858596a5:-1911307887,3d8e4d5101c60010046a01d18f3f607d:-881930434,dbc0cd513c860010a7a4998c242d8b86:-205672451,d5dcbc51514680109358b3f3e0f5a34f:-355664858,ee3c7051f8468010ae5d54bf5902df57:-881930434,b9b724d5e6c280105c45825e51a0a7ac:-952437676,0b638541ef4640100847ce626d27b576:-1911307887,ea720501aa464010c02eb8ac5c568d40:-881930434,658eebf813ce0010d8a2e0f6a8027b0e:-952437676,b0f423b87fce40102b1cd2d7aea790c3:-355664858,1607a2b808ca40106fe49c81e44f115f:-55911111,6ec6ae7832ca40105186e93dfbfa8441:1201755055,06e89ba862ce0010046a84f9f0a5a1bb:-881930434,89b9c7a8a38e0010615348f3e094b81d:-55911111,a1340764e48e00107fca7fafabf8e591:-881930434,50418b60de8e00105001f4bb54cc7c37:-55911111,4468322cf20a00107991997cc28dbd4f:-881930434,f8f9c62c7446001052bb2a3b604e19d7:1201755055,732d3d641f8a40107d65dab22766207a:-881930434,720a5decc6c640102845caad4a9d4ec6:1201755055,093c0ed0944e0010fba86d47d35e0095:-355664858,e06c35d05d0e00107da283127f77d7f5:1089011370,33b2a998af0e001056c769c55d4bf796:-355664858,43189f779df54410bc1327736f17b64e:435066583,e13597b380f54410745b35c3d8802aff:-1648184222,92f0d6eb93f10410a7f7ce0577936e80:435066583,f9a3bc5f6e718010f4580fdd4567b460:-1654572735,b9c2bc9be3718010a673881cf8afda26:2044629207</update_guid_history>
-<update_set display_value=""/>
-<view/>
-</sys_update_xml>
-<sys_update_xml action="INSERT_OR_UPDATE">
-<action>INSERT_OR_UPDATE</action>
-<application display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</application>
-<category>customer</category>
-<comments/>
-<name>sys_properties_02a2bc9bdb71801061aecd3f299619af</name>
-<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_properties action="INSERT_OR_UPDATE">
-<choices/>
-<description>Production  Only - This property sets the Password for the User Profile used for Integration for the Production instance defined in the property x_7756_update_set.service_guru_production_instance.</description>
-<ignore_cache>false</ignore_cache>
-<is_private>false</is_private>
-<name>x_7756_update_set.prod_us_deployment_password</name>
-<read_roles/>
-<suffix>x_7756_update_set.prod_us_deployment_password</suffix>
-<sys_class_name>sys_properties</sys_class_name>
-<sys_created_by>service_guru_ravish</sys_created_by>
-<sys_created_on>2019-12-23 16:51:07</sys_created_on>
-<sys_id>02a2bc9bdb71801061aecd3f299619af</sys_id>
-<sys_mod_count>8</sys_mod_count>
-<sys_name>x_7756_update_set.prod_us_deployment_password</sys_name>
-<sys_package display_value="Auto Deployment - ServiceGuru" source="x_7756_update_set">870d48164fb00810ff6ab8de9310c78e</sys_package>
-<sys_policy/>
-<sys_scope display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</sys_scope>
-<sys_update_name>sys_properties_02a2bc9bdb71801061aecd3f299619af</sys_update_name>
-<sys_updated_by>service_guru_ravish</sys_updated_by>
-<sys_updated_on>2019-12-28 21:39:47</sys_updated_on>
-<type>password</type>
-<value/>
-<write_roles/>
-</sys_properties></record_update>]]></payload>
-<payload_hash>-1899390583</payload_hash>
-<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.2">0c805c26dbc20010c4271461399619b7</remote_update_set>
-<replace_on_upgrade>false</replace_on_upgrade>
-<sys_created_by>service_guru_ravish</sys_created_by>
-<sys_created_on>2020-01-02 16:40:55</sys_created_on>
-<sys_id>0c805c26dbc20010c4271461399619b8</sys_id>
-<sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>16f6313a66c0000001</sys_recorded_at>
-<sys_updated_by>service_guru_ravish</sys_updated_by>
-<sys_updated_on>2020-01-02 16:40:55</sys_updated_on>
-<table/>
-<target_name>x_7756_update_set.prod_us_deployment_password</target_name>
-<type>System Property</type>
-<update_domain>global</update_domain>
-<update_guid>f1c7adb17002401063cb4c99569c0a19</update_guid>
-<update_guid_history>f1c7adb17002401063cb4c99569c0a19:-1899390583,afda71ed4d82001042ea0f7c8116c4f5:469507073,5b41ad650642001015340e911049ec9d:-1899390583,a2ce99a152420010999ce904a8288ee8:469507073,d98c59e5f58640106bb7c9bd0f5f05e0:-1899390583,e624a1d5560a0010dd48b4c7ba18f99c:469507073,a76325957a0a00103c78b48c024cd88d:-1899390583,3370d115cac60010b018b6cf63142fa3:469507073,398e4d51bdc60010e04276c059fcac7b:-1899390583,1fc0cd51dd860010a50cbf43a014a088:-1975089203,d1dc7c51fa468010557420d1557544d3:-187744493,ea3c70513846801030b28b83f5ebdf55:-1899390583,f5b724d5bfc28010e5ed88e73f59e5af:987457658,07638541c8464010106537709cf94474:469507073,e67205018b464010055af544e3e1e63e:-1899390583,a58eebf88cce0010fafdfd53d88a3410:987457658,b8f423b829ce4010fa1837097c75ead1:-187744493,5607a2b8e6ca4010645ee13b6a29b961:1009505419,6ac6ae786cca4010da56f56ff5bda13f:1797196220,02e89ba88cce001037cdea40a4c603b9:-1899390583,81b9c7a8698e0010fada0c32e5ddbe2c:-948052893,ad340764ac8e001093d10de4e3ebfc8e:-1899390583,90418b60508e001037953033ce1f7539:-948052893,0068322c370a0010bd4a0085fa3ced4d:-1899390583,b4f9c62c7d460010ae61bc51847c39d5:1797196220,7f2d3d644f8a40109ed89e0a924a5077:-1899390583,7e0a5dec9ac64010dd5ff540178e92c3:1797196220,013c0ed0684e0010e12bb1c2ea2fb9a4:-187744493,246c35d0190e00104f4fd33205ed52f7:297359463,44c2a9985c0e00104efadbdc48927c98:-187744493,06181f77a4f544104d54508d3b4d72ff:1517256178,1c3553b313f54410a5846c4e86e91620:1312084685,d00116ebe1f10410635c61fd995b8409:1517256178,63a3f09f27718010021508f575b4651e:-1202092274,1f93bc5f397180107ed3eab09f3d6958:-1439903102,70037c1f737180101223cfae33717b1a:-507744128,8cf2781fae718010cdef83ceba794cb3:-1468234299</update_guid_history>
-<update_set display_value=""/>
-<view/>
-</sys_update_xml>
-<sys_update_xml action="INSERT_OR_UPDATE">
-<action>INSERT_OR_UPDATE</action>
-<application display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</application>
-<category>customer</category>
-<comments/>
-<name>sys_properties_category_7dd51bb3dbf5441061aecd3f299619e9</name>
-<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_properties_category action="INSERT_OR_UPDATE"&gt;
-&lt;name&gt;ServiceGuru -Non Orchestrator Properties&lt;/name&gt;
-&lt;sys_class_name&gt;sys_properties_category&lt;/sys_class_name&gt;
-&lt;sys_created_by&gt;service_guru_ravish&lt;/sys_created_by&gt;
-&lt;sys_created_on&gt;2019-12-25 17:59:50&lt;/sys_created_on&gt;
-&lt;sys_id&gt;7dd51bb3dbf5441061aecd3f299619e9&lt;/sys_id&gt;
-&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;
-&lt;sys_name&gt;ServiceGuru -Non Orchestrator Properties&lt;/sys_name&gt;
-&lt;sys_package display_value="Auto Deployment - ServiceGuru" source="x_7756_update_set"&gt;870d48164fb00810ff6ab8de9310c78e&lt;/sys_package&gt;
-&lt;sys_policy/&gt;
-&lt;sys_scope display_value="Auto Deployment - ServiceGuru"&gt;870d48164fb00810ff6ab8de9310c78e&lt;/sys_scope&gt;
-&lt;sys_update_name&gt;sys_properties_category_7dd51bb3dbf5441061aecd3f299619e9&lt;/sys_update_name&gt;
-&lt;sys_updated_by&gt;service_guru_ravish&lt;/sys_updated_by&gt;
-&lt;sys_updated_on&gt;2019-12-25 18:03:09&lt;/sys_updated_on&gt;
-&lt;title&gt;&lt;![CDATA[&lt;p&gt;&lt;span style="color: #ff0000;"&gt;Important: The changes to properties on this page are local to this instance. You will need to perform the same property changes in respective ServiceNow instances where this tool is installed.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;Contact: shettyravish&amp;#64;outlook.com for any custom tool modification requests.&lt;/p&gt;]]&gt;&lt;/title&gt;
-&lt;/sys_properties_category&gt;&lt;/record_update&gt;</payload>
-<payload_hash>-1723161303</payload_hash>
-<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.2">0c805c26dbc20010c4271461399619b7</remote_update_set>
-<replace_on_upgrade>false</replace_on_upgrade>
-<sys_created_by>service_guru_ravish</sys_created_by>
-<sys_created_on>2020-01-02 16:40:56</sys_created_on>
-<sys_id>0c805c26dbc20010c4271461399619bb</sys_id>
-<sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>16f6313a68c0000001</sys_recorded_at>
-<sys_updated_by>service_guru_ravish</sys_updated_by>
-<sys_updated_on>2020-01-02 16:40:56</sys_updated_on>
-<table/>
-<target_name>ServiceGuru -Non Orchestrator Properties</target_name>
-<type>System Property Category</type>
-<update_domain>global</update_domain>
-<update_guid>a7c7adb12002401021e2447df9db7530</update_guid>
-<update_guid_history>a7c7adb12002401021e2447df9db7530:-1723161303,ac41e16501420010197e09b033a3f7de:-1723161303,57eaf0951b068010c377bc6aeaade288:-1723161303,d6824101af464010ae9b9d43503e917f:-1723161303,624723b0c9ce00109c3f9cbb7224a1de:479716585,57b4237849ce40101196a629b02a6b23:-1723161303,31a232b4070e4010ac5e76e7f9fcd409:-1735461350,5e965737e7f5441010667b4b8d2e7eb4:-660831212,d89697f366f544106098473f11b16a4e:723748846,2f76dff3e8f54410ac9eb678d626ffb8:471764156,71d51bb34df54410d2c26d450a6080eb:-660831212</update_guid_history>
-<update_set display_value=""/>
-<view/>
-</sys_update_xml>
-<sys_update_xml action="INSERT_OR_UPDATE">
-<action>INSERT_OR_UPDATE</action>
-<application display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</application>
-<category>customer</category>
-<comments/>
-<name>sys_properties_6a9a2f3d4f19c810ff6ab8de9310c7d1</name>
-<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_properties action="INSERT_OR_UPDATE">
-<choices/>
-<description>Enter the production instance name.</description>
-<ignore_cache>false</ignore_cache>
-<is_private>false</is_private>
-<name>x_7756_update_set.service_guru_production_instance</name>
-<read_roles/>
-<suffix>service_guru_production_instance</suffix>
-<sys_class_name>sys_properties</sys_class_name>
-<sys_created_by>rshetty</sys_created_by>
-<sys_created_on>2019-11-24 17:52:26</sys_created_on>
-<sys_id>6a9a2f3d4f19c810ff6ab8de9310c7d1</sys_id>
-<sys_mod_count>8</sys_mod_count>
-<sys_name>x_7756_update_set.service_guru_production_instance</sys_name>
-<sys_package display_value="Auto Deployment - ServiceGuru" source="x_7756_update_set">870d48164fb00810ff6ab8de9310c78e</sys_package>
-<sys_policy/>
-<sys_scope display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</sys_scope>
-<sys_update_name>sys_properties_6a9a2f3d4f19c810ff6ab8de9310c7d1</sys_update_name>
-<sys_updated_by>service_guru_ravish</sys_updated_by>
-<sys_updated_on>2019-12-28 21:39:47</sys_updated_on>
-<type>string</type>
-<value/>
-<write_roles/>
-</sys_properties></record_update>]]></payload>
-<payload_hash>-736714517</payload_hash>
-<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.2">0c805c26dbc20010c4271461399619b7</remote_update_set>
-<replace_on_upgrade>false</replace_on_upgrade>
-<sys_created_by>service_guru_ravish</sys_created_by>
-<sys_created_on>2020-01-02 16:40:55</sys_created_on>
-<sys_id>40805c26dbc20010c4271461399619ba</sys_id>
-<sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>16f6313a6810000001</sys_recorded_at>
-<sys_updated_by>service_guru_ravish</sys_updated_by>
-<sys_updated_on>2020-01-02 16:40:55</sys_updated_on>
-<table/>
-<target_name>x_7756_update_set.service_guru_production_instance</target_name>
-<type>System Property</type>
-<update_domain>global</update_domain>
-<update_guid>f1c7adb118024010d2e6478c39dffd22</update_guid>
-<update_guid_history>f1c7adb118024010d2e6478c39dffd22:-736714517,522bb1ed5d8200108a3b3eacf97fbf10:1594597731,afda71ed35820010c7ffbab91bb1f6fe:1554609249,5b41ad65ca420010a9b9f17be5eea5a6:-736714517,05fe5da19b4200100411515843c9e390:1594597731,6ace99a1f94200104b9ac7741d1a72fd:1554609249,d98c59e5338640109a0b922a614ecae9:-736714517,f634ad95790a0010c75a7f0486c038e8:885256276,e624a1d5de0a001066802dec62a62da5:1554609249,a7632595310a00100221b67b119e8196:-736714517,82a099d113c600109a7618e3fd21fd05:885256276,3370d115b8c60010be55c771d139b4ac:1554609249,fd8e4d51c3c60010341cbb1a01d41190:-736714517,d8608551a7860010f24838338497099f:885256276,15dc7c51f34680109bff212211a39eda:-934538279,fa3c7051944680103101127ab2a9fb5e:-736714517,e8a30309ed0e401053530429a2afd05c:-1519039624,076385415846401042d5e8136dd5b37d:1554609249,e67205013546401028396f24f623af47:-736714517,618eebf896ce0010432f3c4a3117c708:-1519039624,bcf423b809ce4010c2ce334b53d5c6ba:-934538279,c607ee786aca40109f90980727088a47:1013708531,e6c6ae7896ca40104a5215adb1e32861:81159780,02e89ba81ace00106c491455b1b258c2:-736714517,85b9c7a81f8e00107362f7465622d717:1013708531,ad340764018e0010b74eedd108053f97:-736714517,5c418b60ab8e0010a489785688171330:1013708531,0468322c2d0a0010b78cd663d82d5d56:-736714517,d84a4a2cfe460010df7ec5945197ac10:-1921848351,70f9c62c2d460010553ec471062574eb:81159780,7f2d3d64248a4010e291f31fc1796680:-736714517,a93a95205a0a4010a6c47acc1418c7bb:-1381003493,7e0a5dec7ac640103276c30bfb6e90cc:81159780,343c0ed0a04e0010e5e9447774e7ec8f:-934538279,ec6c35d05a0e00106951567c603abcec:1636189335,33b2a998aa0e001035ec4e6204db5a8f:-934538279,c9af34d0108a001023aa08b157c06083:-198996554,787e9c4ba07d0010473517dd93c199ff:-1367792724,66b9c79cb931c010bc9347e275d777f0:1436135899,cd93dcb671e94c10b5427817d379c3ac:2105559805,0839152650650c1097f0eba0747b8b49:-441025376,aed8d1e2f5650c10aac0b90ff173c116:-1095066548,b00d7ecc65edcc10c23142dc71391170:-1768877972,b3f9fec03aedcc10f5fdf47c0c070cbd:-854868629,33da63f98f19c81026f2804e555daa25:114471243</update_guid_history>
-<update_set display_value=""/>
-<view/>
-</sys_update_xml>
-<sys_update_xml action="INSERT_OR_UPDATE">
-<action>INSERT_OR_UPDATE</action>
-<application display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</application>
-<category>customer</category>
-<comments/>
-<name>sys_properties_12b8344fdbfd001061aecd3f29961922</name>
-<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_properties action="INSERT_OR_UPDATE">
-<choices/>
-<description>Custom Release Query:
-(WARNING:  Perform tests to verify if the query is correct or else it would cause the tool to fail in execution.)
-Enter the Encoded Query for Release table which can be used to query the Components.</description>
-<ignore_cache>false</ignore_cache>
-<is_private>false</is_private>
-<name>x_7756_update_set.non_prod_us_deployment_release_query</name>
-<read_roles/>
-<suffix>non_prod_us_deployment_release_query</suffix>
-<sys_class_name>sys_properties</sys_class_name>
-<sys_created_by>service_guru_ravish</sys_created_by>
-<sys_created_on>2019-12-22 22:39:54</sys_created_on>
-<sys_id>12b8344fdbfd001061aecd3f29961922</sys_id>
-<sys_mod_count>9</sys_mod_count>
-<sys_name>x_7756_update_set.non_prod_us_deployment_release_query</sys_name>
-<sys_package display_value="Auto Deployment - ServiceGuru" source="x_7756_update_set">870d48164fb00810ff6ab8de9310c78e</sys_package>
-<sys_policy/>
-<sys_scope display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</sys_scope>
-<sys_update_name>sys_properties_12b8344fdbfd001061aecd3f29961922</sys_update_name>
-<sys_updated_by>service_guru_ravish</sys_updated_by>
-<sys_updated_on>2019-12-26 20:21:25</sys_updated_on>
-<type>string</type>
-<value>active=true</value>
-<write_roles/>
-</sys_properties></record_update>]]></payload>
-<payload_hash>-365823446</payload_hash>
-<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.2">0c805c26dbc20010c4271461399619b7</remote_update_set>
-<replace_on_upgrade>false</replace_on_upgrade>
-<sys_created_by>service_guru_ravish</sys_created_by>
-<sys_created_on>2020-01-02 16:40:55</sys_created_on>
-<sys_id>44805c26dbc20010c4271461399619b9</sys_id>
-<sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>16f6313a65a0000001</sys_recorded_at>
-<sys_updated_by>service_guru_ravish</sys_updated_by>
-<sys_updated_on>2020-01-02 16:40:55</sys_updated_on>
-<table/>
-<target_name>x_7756_update_set.non_prod_us_deployment_release_query</target_name>
-<type>System Property</type>
-<update_domain>global</update_domain>
-<update_guid>3dc7adb1c202401019d0f3e4652fad12</update_guid>
-<update_guid_history>3dc7adb1c202401019d0f3e4652fad12:-365823446,158c59e5f0864010cd25dae5b64a73da:-365823446,3d8e4d5182c6001015673dc8640b8574:-365823446,1ddcbc518e46801067f378110dedf050:673454486,5ec6ae7884ca4010eeeb986f89f5a238:-365823446,86e89ba827ce0010b86df3a57c0b8499:-1367023710,55b9c7a8bb8e0010d406474222c54e32:673454486,a1340764478e0010f4b5f97f85527588:-1367023710,1c418b603d8e00108fc18c308c49344b:673454486,4068322c0f0a0010d3e5a30f664c0446:-1367023710,f4f9c62c6e4600100f8563adb79963ce:-365823446,f32d3d644a8a4010b44db5a281522f58:-1367023710,720a5dec9cc640101d896a1f31edb2bd:-365823446,c13c0ed0c94e0010116c00b9764f32aa:-547640144,a46c35d0080e0010230dfd2095ae4afb:1798752696,ccc2a9982f0e001053af93ca55b7789c:-547640144,6ddf38d0b18a0010e9c986d38a3c56be:1798752696,f8c518402dca4410237a735828ba6326:-828438845,2194dcccb68a4410fe8db6a27ee3467a:-991524731,5f085f77fdf5441081831263bcef6413:-828438845,83e4d77350f544103a3f542ea4b92653:1641801300,74dcddc3c1b140108076bce307b7ed47:1773191557,278c9dc33ab14010d3e5eeccbee8efb9:982244217,8a6c99c374b140102fd3f5bb0095fca3:-732438373,34c98903a1714010fb5e872ff02277bd:104738752,5729b4cfccfd00108075313c1b166ed9:1277143614</update_guid_history>
-<update_set display_value=""/>
-<view/>
-</sys_update_xml>
-<sys_update_xml action="INSERT_OR_UPDATE">
-<action>INSERT_OR_UPDATE</action>
-<application display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</application>
-<category>customer</category>
-<comments/>
-<name>sys_properties_d908bc734fa94450ff6ab8de9310c7cc</name>
-<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_properties action="INSERT_OR_UPDATE">
-<choices/>
-<description>Custom Change Request Query:
-(WARNING:  Perform tests to verify if the query is correct or else it would cause the tool to fail in execution.)
-Enter the Encoded Query for Change Request table which can be used to query the Components.</description>
-<ignore_cache>false</ignore_cache>
-<is_private>false</is_private>
-<name>x_7756_update_set.non_prod_us_deployment_change_query</name>
-<read_roles/>
-<suffix>non_prod_us_deployment_change_query</suffix>
-<sys_class_name>sys_properties</sys_class_name>
-<sys_created_by>rshetty</sys_created_by>
-<sys_created_on>2019-12-12 20:15:22</sys_created_on>
-<sys_id>d908bc734fa94450ff6ab8de9310c7cc</sys_id>
-<sys_mod_count>10</sys_mod_count>
-<sys_name>x_7756_update_set.non_prod_us_deployment_change_query</sys_name>
-<sys_package display_value="Auto Deployment - ServiceGuru" source="x_7756_update_set">870d48164fb00810ff6ab8de9310c78e</sys_package>
-<sys_policy/>
-<sys_scope display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</sys_scope>
-<sys_update_name>sys_properties_d908bc734fa94450ff6ab8de9310c7cc</sys_update_name>
-<sys_updated_by>service_guru_ravish</sys_updated_by>
-<sys_updated_on>2019-12-28 21:39:47</sys_updated_on>
-<type>string</type>
-<value>active=true</value>
-<write_roles/>
-</sys_properties></record_update>]]></payload>
-<payload_hash>546123213</payload_hash>
-<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.2">0c805c26dbc20010c4271461399619b7</remote_update_set>
-<replace_on_upgrade>false</replace_on_upgrade>
-<sys_created_by>service_guru_ravish</sys_created_by>
-<sys_created_on>2020-01-02 16:40:56</sys_created_on>
-<sys_id>44805c26dbc20010c4271461399619bc</sys_id>
-<sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>16f6313a6320000001</sys_recorded_at>
-<sys_updated_by>service_guru_ravish</sys_updated_by>
-<sys_updated_on>2020-01-02 16:40:56</sys_updated_on>
-<table/>
-<target_name>x_7756_update_set.non_prod_us_deployment_change_query</target_name>
-<type>System Property</type>
-<update_domain>global</update_domain>
-<update_guid>75c7adb10a024010cfa85088ff8cb303</update_guid>
-<update_guid_history>75c7adb10a024010cfa85088ff8cb303:546123213,1e2bb1ed1582001021630d277e0fb809:207332733,5bda71ed69820010d5678e5ccb9986d3:-1212134644,db41ad656f4200103ca109cc0b671187:546123213,45fe99a1fd420010d0cdfa1b822c6225:207332733,16ce99a1904200102e0cfd922dd6e4d2:-1212134644,5d8c59e5818640102d901b4a96159cca:546123213,73409de90646401003e5e17d2a980454:207332733,6a24a1d55c0a001069390d26395ba586:-1212134644,e3632595550a001051360e7504988e77:546123213,7e4229159f0a0010021323b1d171b016:207332733,fb70d115cbc600108e0bdc4524688380:-1212134644,318e4d51b2c60010f9b5ac52a54f4465:546123213,51dcbc51b246801065d6c248a2920b52:207332733,2a3c7051fb468010438f8b4e00ba733f:546123213,3183a495cb828010170e2c16208056c2:207332733,876385419d46401033216baca194ad5e:-1212134644,26720501cc464010a4f1ae761bb5dd28:546123213,6a7fe401c78240108134d4a488be4991:207332733,a58eabf872ce0010333af7faa55fd4f3:1398961589,3cf423b85bce4010eb5ad1a874495e99:207332733,96c6ae7800ca401009d48700000a3429:-1212134644,8ae89ba8dfce00109bf4eef0c6a84889:690603525,85b987a8ba8e00100b92c841f18664dd:207332733,a9340764838e0010cf620784fb23cc46:690603525,58418b60848e0010101c7f248f8f7828:207332733,0c68322cae0a00100b19c7bd7ff35c29:690603525,78f9c62c904600103ee7fb148dfbb5be:-1212134644,3f2d3d647b8a4010ebf9d5f48a465848:690603525,760a5decddc6401063481ce67447ccad:-1212134644,303c0ed0a04e0010c01236abfb269887:958958551,246c35d0e80e0010f7fa5a2e683319d8:706661663,ffb2a998090e0010789315e818d56d87:958958551,7679cb6fa0f50410b229f8e6d6a8dc5f:279757086,dacc55071db14010de7df96e77a188bc:-102701341,3fac910720b1401067e9103ec8d3e585:-121598571,95998903787140106ac8abefbc9a29b3:-2108213552,97bf30c4bc710010507c7ae8aac13d8c:2115986256,169fbc8424710010e13f901cfc9452ac:-1037275456,e58f7c440c71001093032f5dfb998a38:1064468352,ba3f7c445c710010243552a4bc01e451:389577424,29097837fca944500cd4e0db4027d32b:2064771569,b0387073b1a94450d897f41f894384ea:-1333956077</update_guid_history>
 <update_set display_value=""/>
 <view/>
 </sys_update_xml>
@@ -577,15 +426,15 @@ function updateSetAutoDeployJob5454544534() {
     }
 }]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sysauto_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;service_guru_ravish&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-12-28 19:58:00&lt;/sys_created_on&gt;&lt;sys_id&gt;b5adc770078e401093b9f0269c1ed049&lt;/sys_id&gt;&lt;sys_mod_count&gt;18&lt;/sys_mod_count&gt;&lt;sys_name&gt;ServiceGuru - Check application versions in all environments&lt;/sys_name&gt;&lt;sys_package display_value="Auto Deployment - ServiceGuru" source="x_7756_update_set"&gt;870d48164fb00810ff6ab8de9310c78e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Auto Deployment - ServiceGuru"&gt;870d48164fb00810ff6ab8de9310c78e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysauto_script_b5adc770078e401093b9f0269c1ed049&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;service_guru_ravish&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-12-31 15:07:12&lt;/sys_updated_on&gt;&lt;upgrade_safe&gt;false&lt;/upgrade_safe&gt;&lt;/sysauto_script&gt;&lt;/record_update&gt;</payload>
 <payload_hash>-437139618</payload_hash>
-<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.2">0c805c26dbc20010c4271461399619b7</remote_update_set>
+<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.1">379b0566db8a0010422ee9c94896194f</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>service_guru_ravish</sys_created_by>
-<sys_created_on>2020-01-02 16:40:55</sys_created_on>
-<sys_id>48805c26dbc20010c4271461399619b8</sys_id>
+<sys_created_on>2020-01-02 20:59:15</sys_created_on>
+<sys_id>739b0566db8a0010422ee9c948961950</sys_id>
 <sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>16f6313a6970000001</sys_recorded_at>
+<sys_recorded_at>16f67ba8dbf0000001</sys_recorded_at>
 <sys_updated_by>service_guru_ravish</sys_updated_by>
-<sys_updated_on>2020-01-02 16:40:55</sys_updated_on>
+<sys_updated_on>2020-01-02 20:59:15</sys_updated_on>
 <table/>
 <target_name>ServiceGuru - Check application versions in all environments</target_name>
 <type>Scheduled Script Execution</type>
@@ -626,15 +475,15 @@ function updateSetAutoDeployJob5454544534() {
 <write_roles/>
 </sys_properties></record_update>]]></payload>
 <payload_hash>-1481722400</payload_hash>
-<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.2">0c805c26dbc20010c4271461399619b7</remote_update_set>
+<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.1">379b0566db8a0010422ee9c94896194f</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>service_guru_ravish</sys_created_by>
-<sys_created_on>2020-01-02 16:40:56</sys_created_on>
-<sys_id>48805c26dbc20010c4271461399619bb</sys_id>
+<sys_created_on>2020-01-02 20:59:15</sys_created_on>
+<sys_id>739b0566db8a0010422ee9c948961953</sys_id>
 <sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>16f6313a6760000001</sys_recorded_at>
+<sys_recorded_at>16f67ba8da30000001</sys_recorded_at>
 <sys_updated_by>service_guru_ravish</sys_updated_by>
-<sys_updated_on>2020-01-02 16:40:56</sys_updated_on>
+<sys_updated_on>2020-01-02 20:59:15</sys_updated_on>
 <table/>
 <target_name>x_7756_update_set.service_guru_enable.non.orchestrator.logging</target_name>
 <type>System Property</type>
@@ -676,21 +525,270 @@ Note: It is recommended to keep this property turned ON and to educate the devel
 <write_roles/>
 </sys_properties></record_update>]]></payload>
 <payload_hash>-1223031313</payload_hash>
-<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.2">0c805c26dbc20010c4271461399619b7</remote_update_set>
+<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.1">379b0566db8a0010422ee9c94896194f</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>service_guru_ravish</sys_created_by>
-<sys_created_on>2020-01-02 16:40:55</sys_created_on>
-<sys_id>4c805c26dbc20010c4271461399619ba</sys_id>
+<sys_created_on>2020-01-02 20:59:15</sys_created_on>
+<sys_id>779b0566db8a0010422ee9c948961952</sys_id>
 <sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>16f6313a6260000001</sys_recorded_at>
+<sys_recorded_at>16f67ba8d630000001</sys_recorded_at>
 <sys_updated_by>service_guru_ravish</sys_updated_by>
-<sys_updated_on>2020-01-02 16:40:55</sys_updated_on>
+<sys_updated_on>2020-01-02 20:59:15</sys_updated_on>
 <table/>
 <target_name>x_7756_update_set.enable_local_us_validation</target_name>
 <type>System Property</type>
 <update_domain>global</update_domain>
 <update_guid>f5c76db11d0240109947bb274cfa9dff</update_guid>
 <update_guid_history>f5c76db11d0240109947bb274cfa9dff:-1223031313,998c59e59786401030c39d81783c19c6:-1223031313,398e4d5187c600104953ead4130ba760:-1223031313,aa30c15198860010c9a023ee43277e78:-353217848,11dcbc51a0468010094fc1534fbe0956:-642097337,223c7051ac4680102eaffe49a4cc503b:-1223031313,037417497e4e40105c909d9ffc9c9052:-353217848,a272c101ca464010d11a08975636c712:-1223031313,959c3c853c064010707b4fb23f12470e:-642097337,ef6c6b7831ce0010ced746fd8de282b7:-353217848,c81527b8a4ce40107273a16db7eaa19d:-642097337,2205a3b8c6ce40104aae1d733b6869ee:-353217848,82e89ba8d7ce00106a00d466c0a61085:-1223031313,9dc8d3a83dce00100cd80b7bbcb278c6:-642097337,97a743289c8e001087c1504219a37cd3:-353217848,a1340764c28e0010144565ec7276eb42:-1223031313,0ee30b24238e0010ff38096fe8971d76:-642097337,5f4fbaecaf4e001092272fa9e2c77eba:-353217848,c468fee8cb0a0010ca6c1b4bdb453939:-1223031313,bf2d3d642a8a401042cfd11bcf6e5144:-1223031313,7e0a5dec6bc64010e6fc41b7dc5d0fa8:-1223031313,af80c9d0f98a0010fb01490c8d45bf92:1126485157,ac4e8fe319390410b63720ce9a798311:1643495850,e7ac83633a39041090f4f003df8da04c:1126485157,b01ccb23493904107e10ba44d2f546e7:1605669420,29cb47238a390410234c0e0de4593ba1:1126485157</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_6a9a2f3d4f19c810ff6ab8de9310c7d1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_properties action="INSERT_OR_UPDATE">
+<choices/>
+<description>Enter the production instance name.</description>
+<ignore_cache>false</ignore_cache>
+<is_private>false</is_private>
+<name>x_7756_update_set.service_guru_production_instance</name>
+<read_roles/>
+<suffix>service_guru_production_instance</suffix>
+<sys_class_name>sys_properties</sys_class_name>
+<sys_created_by>rshetty</sys_created_by>
+<sys_created_on>2019-11-24 17:52:26</sys_created_on>
+<sys_id>6a9a2f3d4f19c810ff6ab8de9310c7d1</sys_id>
+<sys_mod_count>8</sys_mod_count>
+<sys_name>x_7756_update_set.service_guru_production_instance</sys_name>
+<sys_package display_value="Auto Deployment - ServiceGuru" source="x_7756_update_set">870d48164fb00810ff6ab8de9310c78e</sys_package>
+<sys_policy/>
+<sys_scope display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</sys_scope>
+<sys_update_name>sys_properties_6a9a2f3d4f19c810ff6ab8de9310c7d1</sys_update_name>
+<sys_updated_by>service_guru_ravish</sys_updated_by>
+<sys_updated_on>2019-12-28 21:39:47</sys_updated_on>
+<type>string</type>
+<value/>
+<write_roles/>
+</sys_properties></record_update>]]></payload>
+<payload_hash>-736714517</payload_hash>
+<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.1">379b0566db8a0010422ee9c94896194f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>service_guru_ravish</sys_created_by>
+<sys_created_on>2020-01-02 20:59:15</sys_created_on>
+<sys_id>7b9b0566db8a0010422ee9c948961951</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f67ba8dac0000001</sys_recorded_at>
+<sys_updated_by>service_guru_ravish</sys_updated_by>
+<sys_updated_on>2020-01-02 20:59:15</sys_updated_on>
+<table/>
+<target_name>x_7756_update_set.service_guru_production_instance</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>f1c7adb118024010d2e6478c39dffd22</update_guid>
+<update_guid_history>f1c7adb118024010d2e6478c39dffd22:-736714517,522bb1ed5d8200108a3b3eacf97fbf10:1594597731,afda71ed35820010c7ffbab91bb1f6fe:1554609249,5b41ad65ca420010a9b9f17be5eea5a6:-736714517,05fe5da19b4200100411515843c9e390:1594597731,6ace99a1f94200104b9ac7741d1a72fd:1554609249,d98c59e5338640109a0b922a614ecae9:-736714517,f634ad95790a0010c75a7f0486c038e8:885256276,e624a1d5de0a001066802dec62a62da5:1554609249,a7632595310a00100221b67b119e8196:-736714517,82a099d113c600109a7618e3fd21fd05:885256276,3370d115b8c60010be55c771d139b4ac:1554609249,fd8e4d51c3c60010341cbb1a01d41190:-736714517,d8608551a7860010f24838338497099f:885256276,15dc7c51f34680109bff212211a39eda:-934538279,fa3c7051944680103101127ab2a9fb5e:-736714517,e8a30309ed0e401053530429a2afd05c:-1519039624,076385415846401042d5e8136dd5b37d:1554609249,e67205013546401028396f24f623af47:-736714517,618eebf896ce0010432f3c4a3117c708:-1519039624,bcf423b809ce4010c2ce334b53d5c6ba:-934538279,c607ee786aca40109f90980727088a47:1013708531,e6c6ae7896ca40104a5215adb1e32861:81159780,02e89ba81ace00106c491455b1b258c2:-736714517,85b9c7a81f8e00107362f7465622d717:1013708531,ad340764018e0010b74eedd108053f97:-736714517,5c418b60ab8e0010a489785688171330:1013708531,0468322c2d0a0010b78cd663d82d5d56:-736714517,d84a4a2cfe460010df7ec5945197ac10:-1921848351,70f9c62c2d460010553ec471062574eb:81159780,7f2d3d64248a4010e291f31fc1796680:-736714517,a93a95205a0a4010a6c47acc1418c7bb:-1381003493,7e0a5dec7ac640103276c30bfb6e90cc:81159780,343c0ed0a04e0010e5e9447774e7ec8f:-934538279,ec6c35d05a0e00106951567c603abcec:1636189335,33b2a998aa0e001035ec4e6204db5a8f:-934538279,c9af34d0108a001023aa08b157c06083:-198996554,787e9c4ba07d0010473517dd93c199ff:-1367792724,66b9c79cb931c010bc9347e275d777f0:1436135899,cd93dcb671e94c10b5427817d379c3ac:2105559805,0839152650650c1097f0eba0747b8b49:-441025376,aed8d1e2f5650c10aac0b90ff173c116:-1095066548,b00d7ecc65edcc10c23142dc71391170:-1768877972,b3f9fec03aedcc10f5fdf47c0c070cbd:-854868629,33da63f98f19c81026f2804e555daa25:114471243</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_12b8344fdbfd001061aecd3f29961922</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_properties action="INSERT_OR_UPDATE">
+<choices/>
+<description>Custom Release Query:
+(WARNING:  Perform tests to verify if the query is correct or else it would cause the tool to fail in execution.)
+Enter the Encoded Query for Release table which can be used to query the Components.</description>
+<ignore_cache>false</ignore_cache>
+<is_private>false</is_private>
+<name>x_7756_update_set.non_prod_us_deployment_release_query</name>
+<read_roles/>
+<suffix>non_prod_us_deployment_release_query</suffix>
+<sys_class_name>sys_properties</sys_class_name>
+<sys_created_by>service_guru_ravish</sys_created_by>
+<sys_created_on>2019-12-22 22:39:54</sys_created_on>
+<sys_id>12b8344fdbfd001061aecd3f29961922</sys_id>
+<sys_mod_count>9</sys_mod_count>
+<sys_name>x_7756_update_set.non_prod_us_deployment_release_query</sys_name>
+<sys_package display_value="Auto Deployment - ServiceGuru" source="x_7756_update_set">870d48164fb00810ff6ab8de9310c78e</sys_package>
+<sys_policy/>
+<sys_scope display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</sys_scope>
+<sys_update_name>sys_properties_12b8344fdbfd001061aecd3f29961922</sys_update_name>
+<sys_updated_by>service_guru_ravish</sys_updated_by>
+<sys_updated_on>2019-12-26 20:21:25</sys_updated_on>
+<type>string</type>
+<value>active=true</value>
+<write_roles/>
+</sys_properties></record_update>]]></payload>
+<payload_hash>-365823446</payload_hash>
+<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.1">379b0566db8a0010422ee9c94896194f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>service_guru_ravish</sys_created_by>
+<sys_created_on>2020-01-02 20:59:15</sys_created_on>
+<sys_id>7f9b0566db8a0010422ee9c948961950</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f67ba8d8b0000001</sys_recorded_at>
+<sys_updated_by>service_guru_ravish</sys_updated_by>
+<sys_updated_on>2020-01-02 20:59:15</sys_updated_on>
+<table/>
+<target_name>x_7756_update_set.non_prod_us_deployment_release_query</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>3dc7adb1c202401019d0f3e4652fad12</update_guid>
+<update_guid_history>3dc7adb1c202401019d0f3e4652fad12:-365823446,158c59e5f0864010cd25dae5b64a73da:-365823446,3d8e4d5182c6001015673dc8640b8574:-365823446,1ddcbc518e46801067f378110dedf050:673454486,5ec6ae7884ca4010eeeb986f89f5a238:-365823446,86e89ba827ce0010b86df3a57c0b8499:-1367023710,55b9c7a8bb8e0010d406474222c54e32:673454486,a1340764478e0010f4b5f97f85527588:-1367023710,1c418b603d8e00108fc18c308c49344b:673454486,4068322c0f0a0010d3e5a30f664c0446:-1367023710,f4f9c62c6e4600100f8563adb79963ce:-365823446,f32d3d644a8a4010b44db5a281522f58:-1367023710,720a5dec9cc640101d896a1f31edb2bd:-365823446,c13c0ed0c94e0010116c00b9764f32aa:-547640144,a46c35d0080e0010230dfd2095ae4afb:1798752696,ccc2a9982f0e001053af93ca55b7789c:-547640144,6ddf38d0b18a0010e9c986d38a3c56be:1798752696,f8c518402dca4410237a735828ba6326:-828438845,2194dcccb68a4410fe8db6a27ee3467a:-991524731,5f085f77fdf5441081831263bcef6413:-828438845,83e4d77350f544103a3f542ea4b92653:1641801300,74dcddc3c1b140108076bce307b7ed47:1773191557,278c9dc33ab14010d3e5eeccbee8efb9:982244217,8a6c99c374b140102fd3f5bb0095fca3:-732438373,34c98903a1714010fb5e872ff02277bd:104738752,5729b4cfccfd00108075313c1b166ed9:1277143614</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_d908bc734fa94450ff6ab8de9310c7cc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_properties action="INSERT_OR_UPDATE">
+<choices/>
+<description>Custom Change Request Query:
+(WARNING:  Perform tests to verify if the query is correct or else it would cause the tool to fail in execution.)
+Enter the Encoded Query for Change Request table which can be used to query the Components.</description>
+<ignore_cache>false</ignore_cache>
+<is_private>false</is_private>
+<name>x_7756_update_set.non_prod_us_deployment_change_query</name>
+<read_roles/>
+<suffix>non_prod_us_deployment_change_query</suffix>
+<sys_class_name>sys_properties</sys_class_name>
+<sys_created_by>rshetty</sys_created_by>
+<sys_created_on>2019-12-12 20:15:22</sys_created_on>
+<sys_id>d908bc734fa94450ff6ab8de9310c7cc</sys_id>
+<sys_mod_count>10</sys_mod_count>
+<sys_name>x_7756_update_set.non_prod_us_deployment_change_query</sys_name>
+<sys_package display_value="Auto Deployment - ServiceGuru" source="x_7756_update_set">870d48164fb00810ff6ab8de9310c78e</sys_package>
+<sys_policy/>
+<sys_scope display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</sys_scope>
+<sys_update_name>sys_properties_d908bc734fa94450ff6ab8de9310c7cc</sys_update_name>
+<sys_updated_by>service_guru_ravish</sys_updated_by>
+<sys_updated_on>2019-12-28 21:39:47</sys_updated_on>
+<type>string</type>
+<value>active=true</value>
+<write_roles/>
+</sys_properties></record_update>]]></payload>
+<payload_hash>546123213</payload_hash>
+<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.1">379b0566db8a0010422ee9c94896194f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>service_guru_ravish</sys_created_by>
+<sys_created_on>2020-01-02 20:59:15</sys_created_on>
+<sys_id>7f9b0566db8a0010422ee9c948961953</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f67ba8d6d0000001</sys_recorded_at>
+<sys_updated_by>service_guru_ravish</sys_updated_by>
+<sys_updated_on>2020-01-02 20:59:15</sys_updated_on>
+<table/>
+<target_name>x_7756_update_set.non_prod_us_deployment_change_query</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>75c7adb10a024010cfa85088ff8cb303</update_guid>
+<update_guid_history>75c7adb10a024010cfa85088ff8cb303:546123213,1e2bb1ed1582001021630d277e0fb809:207332733,5bda71ed69820010d5678e5ccb9986d3:-1212134644,db41ad656f4200103ca109cc0b671187:546123213,45fe99a1fd420010d0cdfa1b822c6225:207332733,16ce99a1904200102e0cfd922dd6e4d2:-1212134644,5d8c59e5818640102d901b4a96159cca:546123213,73409de90646401003e5e17d2a980454:207332733,6a24a1d55c0a001069390d26395ba586:-1212134644,e3632595550a001051360e7504988e77:546123213,7e4229159f0a0010021323b1d171b016:207332733,fb70d115cbc600108e0bdc4524688380:-1212134644,318e4d51b2c60010f9b5ac52a54f4465:546123213,51dcbc51b246801065d6c248a2920b52:207332733,2a3c7051fb468010438f8b4e00ba733f:546123213,3183a495cb828010170e2c16208056c2:207332733,876385419d46401033216baca194ad5e:-1212134644,26720501cc464010a4f1ae761bb5dd28:546123213,6a7fe401c78240108134d4a488be4991:207332733,a58eabf872ce0010333af7faa55fd4f3:1398961589,3cf423b85bce4010eb5ad1a874495e99:207332733,96c6ae7800ca401009d48700000a3429:-1212134644,8ae89ba8dfce00109bf4eef0c6a84889:690603525,85b987a8ba8e00100b92c841f18664dd:207332733,a9340764838e0010cf620784fb23cc46:690603525,58418b60848e0010101c7f248f8f7828:207332733,0c68322cae0a00100b19c7bd7ff35c29:690603525,78f9c62c904600103ee7fb148dfbb5be:-1212134644,3f2d3d647b8a4010ebf9d5f48a465848:690603525,760a5decddc6401063481ce67447ccad:-1212134644,303c0ed0a04e0010c01236abfb269887:958958551,246c35d0e80e0010f7fa5a2e683319d8:706661663,ffb2a998090e0010789315e818d56d87:958958551,7679cb6fa0f50410b229f8e6d6a8dc5f:279757086,dacc55071db14010de7df96e77a188bc:-102701341,3fac910720b1401067e9103ec8d3e585:-121598571,95998903787140106ac8abefbc9a29b3:-2108213552,97bf30c4bc710010507c7ae8aac13d8c:2115986256,169fbc8424710010e13f901cfc9452ac:-1037275456,e58f7c440c71001093032f5dfb998a38:1064468352,ba3f7c445c710010243552a4bc01e451:389577424,29097837fca944500cd4e0db4027d32b:2064771569,b0387073b1a94450d897f41f894384ea:-1333956077</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_91aa01dfdbf1801061aecd3f29961986</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_properties action="INSERT_OR_UPDATE">
+<choices/>
+<description>ServiceNow Group name of Operations team who will act as reviewers for Service Request and get Catalog Tasks in workflows for Update Source and/or connectivity issues (Only 1 team name can be accommodated)</description>
+<ignore_cache>false</ignore_cache>
+<is_private>false</is_private>
+<name>x_7756_update_set.operations_team_group_name</name>
+<read_roles/>
+<suffix>x_7756_update_set.operations_team_group_name</suffix>
+<sys_class_name>sys_properties</sys_class_name>
+<sys_created_by>service_guru_ravish</sys_created_by>
+<sys_created_on>2019-12-23 18:36:32</sys_created_on>
+<sys_id>91aa01dfdbf1801061aecd3f29961986</sys_id>
+<sys_mod_count>6</sys_mod_count>
+<sys_name>x_7756_update_set.operations_team_group_name</sys_name>
+<sys_package display_value="Auto Deployment - ServiceGuru" source="x_7756_update_set">870d48164fb00810ff6ab8de9310c78e</sys_package>
+<sys_policy/>
+<sys_scope display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</sys_scope>
+<sys_update_name>sys_properties_91aa01dfdbf1801061aecd3f29961986</sys_update_name>
+<sys_updated_by>service_guru_ravish</sys_updated_by>
+<sys_updated_on>2019-12-28 21:39:47</sys_updated_on>
+<type>string</type>
+<value/>
+<write_roles/>
+</sys_properties></record_update>]]></payload>
+<payload_hash>-1020036607</payload_hash>
+<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.1">379b0566db8a0010422ee9c94896194f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>service_guru_ravish</sys_created_by>
+<sys_created_on>2020-01-02 20:59:15</sys_created_on>
+<sys_id>b39b0566db8a0010422ee9c948961952</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f67ba8d950000001</sys_recorded_at>
+<sys_updated_by>service_guru_ravish</sys_updated_by>
+<sys_updated_on>2020-01-02 20:59:15</sys_updated_on>
+<table/>
+<target_name>x_7756_update_set.operations_team_group_name</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>fdc7adb197024010f2d77380d0d40516</update_guid>
+<update_guid_history>fdc7adb197024010f2d77380d0d40516:-1020036607,abda71ed8d820010471e8a32231267f3:-1162802589,5741ad65b942001080883dd336c8699b:-1020036607,aece99a1074200100a99b978ff037ae5:-1162802589,d58c59e5538640100f3dc41e5fde39de:-1020036607,e224a1d52e0a0010f1efac4fa151389a:-1162802589,a3632595420a0010742ef43af0a8398b:-1020036607,3f70d115acc600108730a49627b4cea0:-1162802589,358e4d514dc60010d35d4e830adcc079:-1020036607,6701459129860010d91fea487c907f46:-1168061443,5ddcbc511f4680109635ea24035e194c:894282907,e63c705193468010b65dba06efee2953:-1020036607,036385414446401032f748478a1c2772:-1162802589,e2720501ce464010b8915b9dccaae73c:-1020036607,f58eebf877ce0010764140016dee3e12:-1168061443,f8f423b816ce40102a5e99b5f093e2d3:894282907,e21e5f704ace40104a47fac3c389def5:-1168061443,56c6ae7831ca4010d53b524c3f25d23d:1088214177,0ee89ba833ce0010ff793c67a63fa7b6:1956652223,d1b9c7a8bd8e00109a84eb7c512d0d2e:2117386567,a9340764db8e00107576ed17fbf3bb8c:1956652223,98418b60b18e00100cbd24998cc1f947:2117386567,c868322cdd0a001035b2f95e819e934a:1956652223,70f9c62c5f4600109d3a34b2101f35d3:1088214177,fb2d3d641b8a40100bf19f742340105c:1956652223,7a0a5dec1cc64010cb1eef9cac9793c1:1088214177,413c0ed0bc4e0010abe6274567683fa6:436674405,646c35d0690e001070b6c1624150c1f9:2117386567,88c2a998870e00108f429e370766109a:436674405,b418df777ef5441040e3a0dce4722ca3:2117386567,062553b3b7f54410e49e1531db487b79:1875037538,aca0d2ab06f10410b0986603453afecd:2117386567,e6809aab2cf10410453b1f5283d016a1:-1344151420,101b4d5f3ef18010003193f7754872f9:974033223</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_65155c40dbca441061aecd3f2996196b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_properties action="INSERT_OR_UPDATE">
+<choices/>
+<description>Release Table Name (If you do not have the release management plugin activated, create a custom task table and update this property with the name of the property)</description>
+<ignore_cache>false</ignore_cache>
+<is_private>false</is_private>
+<name>x_7756_update_set.non_prod_us_deployment_custom_release_table</name>
+<read_roles/>
+<suffix>non_prod_us_deployment_custom_release_table</suffix>
+<sys_class_name>sys_properties</sys_class_name>
+<sys_created_by>service_guru_ravish</sys_created_by>
+<sys_created_on>2019-12-25 22:36:09</sys_created_on>
+<sys_id>65155c40dbca441061aecd3f2996196b</sys_id>
+<sys_mod_count>2</sys_mod_count>
+<sys_name>x_7756_update_set.non_prod_us_deployment_custom_release_table</sys_name>
+<sys_package display_value="Auto Deployment - ServiceGuru" source="x_7756_update_set">870d48164fb00810ff6ab8de9310c78e</sys_package>
+<sys_policy/>
+<sys_scope display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</sys_scope>
+<sys_update_name>sys_properties_65155c40dbca441061aecd3f2996196b</sys_update_name>
+<sys_updated_by>service_guru_ravish</sys_updated_by>
+<sys_updated_on>2019-12-28 21:39:47</sys_updated_on>
+<type>string</type>
+<value/>
+<write_roles/>
+</sys_properties></record_update>]]></payload>
+<payload_hash>94760544</payload_hash>
+<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.1">379b0566db8a0010422ee9c94896194f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>service_guru_ravish</sys_created_by>
+<sys_created_on>2020-01-02 20:59:15</sys_created_on>
+<sys_id>b79b0566db8a0010422ee9c948961951</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f67ba8d720000001</sys_recorded_at>
+<sys_updated_by>service_guru_ravish</sys_updated_by>
+<sys_updated_on>2020-01-02 20:59:15</sys_updated_on>
+<table/>
+<target_name>x_7756_update_set.non_prod_us_deployment_custom_release_table</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>79c7adb1fc02401048f9ac45f24b0b05</update_guid>
+<update_guid_history>79c7adb1fc02401048f9ac45f24b0b05:94760544,17da71ed11820010f6a34635e1432ee2:534576883,df41ad655b420010648658d862aa2c89:94760544,1ace99a1004200107e6b4093403dfbd4:534576883,518c59e5388640104ab1c35380522fcd:94760544,6e24a1d56a0a0010002567b045679b88:534576883,e7632595910a001004382f34617ed879:94760544,ff70d1151bc60010c6f71dfb83415e82:534576883,358e4d512fc600101f7b306260e56367:94760544,e7014591d98600104cf0718ece8dbb4a:330916695,dddc7c514f468010e10d5abe2bd688d8:414091388,2e3c70517646801091ecd127626aac41:94760544,4af5ac154fc280106fe36f185a617bd1:-824196492,8b6385419d4640102540973379dbc060:534576883,2a7205019d46401077bb4bcb89b4752a:94760544,798eebf8b3ce0010df3d2be21889ff16:330916695,7cf423b855ce401077e147d3d0f140d7:414091388,9ac6ae78c9ca4010d2480699b6c3262b:534576883,8ee89ba885ce00101d5a6336d313ce8b:94760544,15b9c7a86d8e0010a9406897a0da7330:330916695,ad340764d68e001061c70e5ec12cc148:94760544,d8418b60d28e00100829277d0de79c49:330916695,4068322c7b0a00103157c3da72637f2c:94760544,bcf9c62cf846001089d8cb781301b8c0:534576883,ec2fb9e4098a4010541b0f0fd33c874f:-824196492,a73d7d64f48a4010317b5b7c38a7cf71:534576883,332d3d648d8a401067d0d7a89db4414b:94760544,7a0a5deccdc64010e7b80a8058c81eaf:534576883,813c0ed08c4e00108e9283a70b4c11a8:414091388,e46c35d0cc0e001092ec44d64380bafd:330916695,04c2a998ad0e001017d1805507f42f9f:414091388,a5df38d03c8a0010afa41759398960c1:330916695,b1155c4052ca44100a5c2a8fb331eb6f:-824196492</update_guid_history>
 <update_set display_value=""/>
 <view/>
 </sys_update_xml>
@@ -725,15 +823,15 @@ Note: It is recommended to keep this property turned ON and to educate the devel
 <write_roles/>
 </sys_properties></record_update>]]></payload>
 <payload_hash>1488251065</payload_hash>
-<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.2">0c805c26dbc20010c4271461399619b7</remote_update_set>
+<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.1">379b0566db8a0010422ee9c94896194f</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>service_guru_ravish</sys_created_by>
-<sys_created_on>2020-01-02 16:40:55</sys_created_on>
-<sys_id>80805c26dbc20010c4271461399619b9</sys_id>
+<sys_created_on>2020-01-02 20:59:15</sys_created_on>
+<sys_id>bb9b0566db8a0010422ee9c948961950</sys_id>
 <sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>16f6313a6190000001</sys_recorded_at>
+<sys_recorded_at>16f67ba8d5a0000001</sys_recorded_at>
 <sys_updated_by>service_guru_ravish</sys_updated_by>
-<sys_updated_on>2020-01-02 16:40:55</sys_updated_on>
+<sys_updated_on>2020-01-02 20:59:15</sys_updated_on>
 <table/>
 <target_name>x_7756_update_set.enable.digest.emails</target_name>
 <type>System Property</type>
@@ -775,15 +873,15 @@ Request approvals are always evaluated for production environment defined in the
 <write_roles/>
 </sys_properties></record_update>]]></payload>
 <payload_hash>-991037333</payload_hash>
-<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.2">0c805c26dbc20010c4271461399619b7</remote_update_set>
+<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.1">379b0566db8a0010422ee9c94896194f</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>service_guru_ravish</sys_created_by>
-<sys_created_on>2020-01-02 16:40:56</sys_created_on>
-<sys_id>80805c26dbc20010c4271461399619bc</sys_id>
+<sys_created_on>2020-01-02 20:59:15</sys_created_on>
+<sys_id>bb9b0566db8a0010422ee9c948961953</sys_id>
 <sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>16f6313a62b0000001</sys_recorded_at>
+<sys_recorded_at>16f67ba8d680000001</sys_recorded_at>
 <sys_updated_by>service_guru_ravish</sys_updated_by>
-<sys_updated_on>2020-01-02 16:40:56</sys_updated_on>
+<sys_updated_on>2020-01-02 20:59:15</sys_updated_on>
 <table/>
 <target_name>x_7756_update_set.non_prod_us_deployment_approval_needed</target_name>
 <type>System Property</type>
@@ -838,15 +936,15 @@ function updateSetAutoDeployJob545454() {
     }
 }]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sysauto_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;rshetty&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-31 21:24:32&lt;/sys_created_on&gt;&lt;sys_id&gt;9535f0924ff40810ff6ab8de9310c7fe&lt;/sys_id&gt;&lt;sys_mod_count&gt;154&lt;/sys_mod_count&gt;&lt;sys_name&gt;ServiceGuru - Auto Update Set and Code Promotion&lt;/sys_name&gt;&lt;sys_package display_value="Auto Deployment - ServiceGuru" source="x_7756_update_set"&gt;870d48164fb00810ff6ab8de9310c78e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Auto Deployment - ServiceGuru"&gt;870d48164fb00810ff6ab8de9310c78e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysauto_script_9535f0924ff40810ff6ab8de9310c7fe&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;service_guru_ravish&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-12-31 15:07:12&lt;/sys_updated_on&gt;&lt;upgrade_safe&gt;false&lt;/upgrade_safe&gt;&lt;/sysauto_script&gt;&lt;/record_update&gt;</payload>
 <payload_hash>640226031</payload_hash>
-<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.2">0c805c26dbc20010c4271461399619b7</remote_update_set>
+<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.1">379b0566db8a0010422ee9c94896194f</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>service_guru_ravish</sys_created_by>
-<sys_created_on>2020-01-02 16:40:55</sys_created_on>
-<sys_id>84805c26dbc20010c4271461399619b8</sys_id>
+<sys_created_on>2020-01-02 20:59:15</sys_created_on>
+<sys_id>bf9b0566db8a0010422ee9c94896194f</sys_id>
 <sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>16f6313a6910000001</sys_recorded_at>
+<sys_recorded_at>16f67ba8dba0000001</sys_recorded_at>
 <sys_updated_by>service_guru_ravish</sys_updated_by>
-<sys_updated_on>2020-01-02 16:40:55</sys_updated_on>
+<sys_updated_on>2020-01-02 20:59:15</sys_updated_on>
 <table/>
 <target_name>ServiceGuru - Auto Update Set and Code Promotion</target_name>
 <type>Scheduled Script Execution</type>
@@ -887,15 +985,15 @@ function updateSetAutoDeployJob545454() {
 <write_roles/>
 </sys_properties></record_update>]]></payload>
 <payload_hash>6072063</payload_hash>
-<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.2">0c805c26dbc20010c4271461399619b7</remote_update_set>
+<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.1">379b0566db8a0010422ee9c94896194f</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>service_guru_ravish</sys_created_by>
-<sys_created_on>2020-01-02 16:40:55</sys_created_on>
-<sys_id>84805c26dbc20010c4271461399619bb</sys_id>
+<sys_created_on>2020-01-02 20:59:15</sys_created_on>
+<sys_id>bf9b0566db8a0010422ee9c948961952</sys_id>
 <sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>16f6313a6470000001</sys_recorded_at>
+<sys_recorded_at>16f67ba8d7c0000001</sys_recorded_at>
 <sys_updated_by>service_guru_ravish</sys_updated_by>
-<sys_updated_on>2020-01-02 16:40:55</sys_updated_on>
+<sys_updated_on>2020-01-02 20:59:15</sys_updated_on>
 <table/>
 <target_name>x_7756_update_set.non_prod_us_deployment_error_acceptance_mode</target_name>
 <type>System Property</type>
@@ -910,47 +1008,47 @@ function updateSetAutoDeployJob545454() {
 <application display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</application>
 <category>customer</category>
 <comments/>
-<name>sys_properties_91aa01dfdbf1801061aecd3f29961986</name>
+<name>sys_properties_56336b434ffc8c10ff6ab8de9310c7cc</name>
 <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_properties action="INSERT_OR_UPDATE">
 <choices/>
-<description>ServiceNow Group name of Operations team who will act as reviewers for Service Request and get Catalog Tasks in workflows for Update Source and/or connectivity issues (Only 1 team name can be accommodated)</description>
+<description>Enter all non orchestrator environments which will be part of this integration. Use a comma as the delimiter to separate each entry (example: dev1,dev2,uat1,uat2). </description>
 <ignore_cache>false</ignore_cache>
 <is_private>false</is_private>
-<name>x_7756_update_set.operations_team_group_name</name>
+<name>x_7756_update_set.non_prod_us_deployment_environments</name>
 <read_roles/>
-<suffix>x_7756_update_set.operations_team_group_name</suffix>
+<suffix>non_prod_us_deployment_environments</suffix>
 <sys_class_name>sys_properties</sys_class_name>
-<sys_created_by>service_guru_ravish</sys_created_by>
-<sys_created_on>2019-12-23 18:36:32</sys_created_on>
-<sys_id>91aa01dfdbf1801061aecd3f29961986</sys_id>
-<sys_mod_count>6</sys_mod_count>
-<sys_name>x_7756_update_set.operations_team_group_name</sys_name>
+<sys_created_by>rshetty</sys_created_by>
+<sys_created_on>2019-11-03 18:00:37</sys_created_on>
+<sys_id>56336b434ffc8c10ff6ab8de9310c7cc</sys_id>
+<sys_mod_count>14</sys_mod_count>
+<sys_name>x_7756_update_set.non_prod_us_deployment_environments</sys_name>
 <sys_package display_value="Auto Deployment - ServiceGuru" source="x_7756_update_set">870d48164fb00810ff6ab8de9310c78e</sys_package>
 <sys_policy/>
 <sys_scope display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</sys_scope>
-<sys_update_name>sys_properties_91aa01dfdbf1801061aecd3f29961986</sys_update_name>
+<sys_update_name>sys_properties_56336b434ffc8c10ff6ab8de9310c7cc</sys_update_name>
 <sys_updated_by>service_guru_ravish</sys_updated_by>
 <sys_updated_on>2019-12-28 21:39:47</sys_updated_on>
 <type>string</type>
 <value/>
 <write_roles/>
 </sys_properties></record_update>]]></payload>
-<payload_hash>-1020036607</payload_hash>
-<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.2">0c805c26dbc20010c4271461399619b7</remote_update_set>
+<payload_hash>1378693002</payload_hash>
+<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.1">379b0566db8a0010422ee9c94896194f</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>service_guru_ravish</sys_created_by>
-<sys_created_on>2020-01-02 16:40:55</sys_created_on>
-<sys_id>88805c26dbc20010c4271461399619ba</sys_id>
+<sys_created_on>2020-01-02 20:59:15</sys_created_on>
+<sys_id>f39b0566db8a0010422ee9c948961951</sys_id>
 <sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>16f6313a6660000001</sys_recorded_at>
+<sys_recorded_at>16f67ba8d770000001</sys_recorded_at>
 <sys_updated_by>service_guru_ravish</sys_updated_by>
-<sys_updated_on>2020-01-02 16:40:55</sys_updated_on>
+<sys_updated_on>2020-01-02 20:59:15</sys_updated_on>
 <table/>
-<target_name>x_7756_update_set.operations_team_group_name</target_name>
+<target_name>x_7756_update_set.non_prod_us_deployment_environments</target_name>
 <type>System Property</type>
 <update_domain>global</update_domain>
-<update_guid>fdc7adb197024010f2d77380d0d40516</update_guid>
-<update_guid_history>fdc7adb197024010f2d77380d0d40516:-1020036607,abda71ed8d820010471e8a32231267f3:-1162802589,5741ad65b942001080883dd336c8699b:-1020036607,aece99a1074200100a99b978ff037ae5:-1162802589,d58c59e5538640100f3dc41e5fde39de:-1020036607,e224a1d52e0a0010f1efac4fa151389a:-1162802589,a3632595420a0010742ef43af0a8398b:-1020036607,3f70d115acc600108730a49627b4cea0:-1162802589,358e4d514dc60010d35d4e830adcc079:-1020036607,6701459129860010d91fea487c907f46:-1168061443,5ddcbc511f4680109635ea24035e194c:894282907,e63c705193468010b65dba06efee2953:-1020036607,036385414446401032f748478a1c2772:-1162802589,e2720501ce464010b8915b9dccaae73c:-1020036607,f58eebf877ce0010764140016dee3e12:-1168061443,f8f423b816ce40102a5e99b5f093e2d3:894282907,e21e5f704ace40104a47fac3c389def5:-1168061443,56c6ae7831ca4010d53b524c3f25d23d:1088214177,0ee89ba833ce0010ff793c67a63fa7b6:1956652223,d1b9c7a8bd8e00109a84eb7c512d0d2e:2117386567,a9340764db8e00107576ed17fbf3bb8c:1956652223,98418b60b18e00100cbd24998cc1f947:2117386567,c868322cdd0a001035b2f95e819e934a:1956652223,70f9c62c5f4600109d3a34b2101f35d3:1088214177,fb2d3d641b8a40100bf19f742340105c:1956652223,7a0a5dec1cc64010cb1eef9cac9793c1:1088214177,413c0ed0bc4e0010abe6274567683fa6:436674405,646c35d0690e001070b6c1624150c1f9:2117386567,88c2a998870e00108f429e370766109a:436674405,b418df777ef5441040e3a0dce4722ca3:2117386567,062553b3b7f54410e49e1531db487b79:1875037538,aca0d2ab06f10410b0986603453afecd:2117386567,e6809aab2cf10410453b1f5283d016a1:-1344151420,101b4d5f3ef18010003193f7754872f9:974033223</update_guid_history>
+<update_guid>3dc7adb17e024010cabc16d41cb9f609</update_guid>
+<update_guid_history>3dc7adb17e024010cabc16d41cb9f609:1378693002,122bb1ed9e820010b798062026b3480e:2120612124,d7da71edc88200109a7ce7e8941430e6:-224835493,9341ad65fd420010bb11fb3634669e8e:1378693002,49fe99a1d34200101624d7e3d16ff327:1870524317,dace99a17b42001069e621461a4292d8:-224835493,158c59e58c8640107a8fe7e3479ab4d1:1378693002,b3bd74a946c24010a2f6fcdcf6f2e8b1:1870524317,2224a1d5a80a0010687da4a173656a8d:-224835493,ef632595530a0010330791f3f2a6b67d:1378693002,b370d1153bc60010e910d831e6f6c787:-224835493,3d8e4d51bac60010c310bd924213376b:1378693002,5460815127860010c0d4e720e55072f8:1012932403,99dc7c516e468010c37413828b09cad7:1251503650,263c705160468010eaced7c3e4b0a446:1378693002,3d836859608280100c14d7340a8741a4:1012932403,d839549d5c428010a95064fac859a49f:-429423873,4f6385417846401059a36fc706df9164:-224835493,2272050149464010f7c011aff352062f:1378693002,698eabf879ce0010612353d01215aaf9:1012932403,7cf423b828ce40103ec64f990720d0b8:1251503650,26c317f4ad8e40106712a1485029d133:1012932403,4607ee78ccca401045e42a798c0f3445:73615663,5ec6ae78b5ca4010c9d43754ed1cd02f:-2003821188,86e89ba8bace00109bc05c5671b7bc90:389725710,45b9c7a8b88e0010dc1801aee3600015:73615663,6d3407646e8e00104b8cf36c94a38e59:389725710,1c418b60e58e00100319037e4f8fe92e:73615663,8468322c3f0a00101a18ccc5180e9a30:389725710,d3aac26ca74600103640f45a5690401e:-236044597,f0f9c62ce4460010471f02915150b7c5:-2003821188,f32d3d64ff8a401037f7aede4217544f:389725710,68da9920370a40108f459b4fccfad91e:-236044597,720a5dec67c64010732f48d9a6b398b4:-2003821188,f03c0ed05e4e00108a82029be4f6d08d:-2129212386,e46c35d04c0e00109870b99e7bbb3fde:1997343600,fbb2a998e40e0010550b2bf8e81a2b8c:-2129212386,68389bb7ebf54410f3226097632d3456:-404413684,95a49fffe6b5441072a6a7be328f43ba:811400375,347e9c4bd77d001065799898153ed0fd:-1254157343,26b9c79c5131c010b0cf81c6c3edeaee:-1438357709,72c410ba3be94c10c10897af3aa0ff8f:141013816,16b4507a05e94c104457f0cc179c635d:-246748466,cc39112637650c1052330103f5ed9187:229340237,26d811e290650c10f44bbd211293909a:-519892490,feb5552e3f250c105fd515f31175953e:-925324075,de8559ea7f250c1034dedbe9a5443928:-1998511304,a81b3248d3edcc10a166dfcd3169be62:-832330783,c8eafe80b1edcc10ab1f4661d8082db9:-1991210199,a6a3e9b30074c050e646e967c8bd7bba:-2119483794,fe536b4317fc8c105ea2c4ba5d74e596:307542997</update_guid_history>
 <update_set display_value=""/>
 <view/>
 </sys_update_xml>
@@ -959,47 +1057,117 @@ function updateSetAutoDeployJob545454() {
 <application display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</application>
 <category>customer</category>
 <comments/>
-<name>sys_properties_65155c40dbca441061aecd3f2996196b</name>
+<name>sys_properties_f5633a444f6dcc10ff6ab8de9310c7a1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices>None,Production only,All environments except QA/Dev,All environments except Dev</choices><description>Select the environments which need change request for any deployments&#13;
+Note: Time zone to evaluate the change window is as per the timezone of the user profile which runs the Scheduled job.</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>x_7756_update_set.non_prod_us_deployment_change_requirement_type</name><read_roles/><suffix>non_prod_us_deployment_change_requirement_type</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>rshetty</sys_created_by><sys_created_on>2019-12-01 13:36:28</sys_created_on><sys_id>f5633a444f6dcc10ff6ab8de9310c7a1</sys_id><sys_mod_count>23</sys_mod_count><sys_name>x_7756_update_set.non_prod_us_deployment_change_requirement_type</sys_name><sys_package display_value="Auto Deployment - ServiceGuru" source="x_7756_update_set">870d48164fb00810ff6ab8de9310c78e</sys_package><sys_policy/><sys_scope display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</sys_scope><sys_update_name>sys_properties_f5633a444f6dcc10ff6ab8de9310c7a1</sys_update_name><sys_updated_by>service_guru_ravish</sys_updated_by><sys_updated_on>2020-01-02 16:17:54</sys_updated_on><type>choicelist</type><value>None</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=f5633a444f6dcc10ff6ab8de9310c7a1"/></record_update>]]></payload>
+<payload_hash>-2135658350</payload_hash>
+<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.1">379b0566db8a0010422ee9c94896194f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>service_guru_ravish</sys_created_by>
+<sys_created_on>2020-01-02 20:59:15</sys_created_on>
+<sys_id>f39b0566db8a0010422ee9c948961954</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f67ba8dcd0000001</sys_recorded_at>
+<sys_updated_by>service_guru_ravish</sys_updated_by>
+<sys_updated_on>2020-01-02 20:59:15</sys_updated_on>
+<table/>
+<target_name>x_7756_update_set.non_prod_us_deployment_change_requirement_type</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>033b446eca820010c68347f44b32fd31</update_guid>
+<update_guid_history>033b446eca820010c68347f44b32fd31:-2135658350,082b082e18820010506bcac97c67739c:-888663074,551b082ea9820010ae5af7a0c8638849:1877607271,519a802e0d82001062f652a318958ba1:512690696,a39dbbde4e42001021fb3bc9dbfbd4a2:860073762,5018bb9a864200101ca9367c8572fc3e:345186887,6be7779af1420010cc18e8cf80e09b43:-1058309723,8ce7bf5a0a420010988f919759c5046a:345186887,5014f3d26342001039a612d06ef2b7c3:-1269946695,65b3a9127cc24010d7a6a6c1bab13c76:-1251390057,7dc7adb17e0240104ffefa623ebb4407:-1882125593,558c59e5ba864010ae91cb6b411caecf:-1882125593,eb632595d50a001041b16bb444b3d77b:-1882125593,2ab0d5157ec60010d129052bfc040a5d:946197772,398e4d51bcc60010eb318272a4ea7269:-1882125593,ab014591e486001080d4ff7f50530343:946197772,15dcbc51984680100c988f025aae815b:985081219,223c7051e14680103d9984b02b8c8244:-1882125593,7583a4951e8280109fa433630d95ddbf:946197772,087a5011cc82801075a0acd492c159b8:985081219,7e49501ddb428010bdb50d3fd8619421:946197772,2e720501f6464010684cc427740d632c:-1882125593,a68f3cc98e064010db11b24331de2694:946197772,088fb8c9cf064010449dd81f95f780d8:985081219,658eabf87ace0010ab81125e7b9886f1:946197772,0025f2f4920e4010f974845cafb53846:985081219,aa15ba38330e401041ab94670adc5c39:946197772,82e89ba8e6ce0010b898d9cfa03c538e:-1882125593,45b987a8a88e0010d4631b3f7358bfdb:946197772,69340764058e00109e82ef603b032157:-1882125593,18418b602c8e001015164001d3232826:946197772,8468322cc20a0010e1d3cabb013f562e:-1882125593,372d3d64d68a4010c8e9048d3fe0624d:-1882125593,7e0a5dec11c64010b2b0233dead75eb1:-1882125593,bc3c0ed0424e00105e366b5c10bb0484:-198237471,e06c35d03a0e001000818e1b5324d7d6:1600762862,061a5c4422ca4410f8f09e13ff33e2d3:-198237471,8d0beaabe67504101841d37008cde953:1600762862,0b73e6ebd7350410b0161fb51cbae1a9:-30827971,4c0552d0cdb98010fb1917a7319614ef:-853379536,4839152636650c105c7b8c5a186de938:1214284644,7a9d3a408421005086e1dc46a247acdc:622858598,748dfa406c2100504aa9eb5dba55d577:-1559338807,2a6db64c38edcc102f3995b1d8bb6b7f:622858598,246d7ec840edcc1042a57d4959efddaf:-1559338807,831cf6883dedcc10b4e73bee951f89aa:622858598,313a7a04e4edcc10b09129a4cdefa751:1317543879,d5e63e8886adcc10b5cbb267277e65f2:-1195947629,6e633a442b6dcc10eedcc57c29e8bda5:1670026262</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_0425f67a4f7c0c10ff6ab8de9310c7c1</name>
 <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_properties action="INSERT_OR_UPDATE">
 <choices/>
-<description>Release Table Name (If you do not have the release management plugin activated, create a custom task table and update this property with the name of the property)</description>
+<description>Shared Non Orchestrator Instance credentials (Username) - This property sets the username for the User Profile used for Integration. This same Username and Password combination is used across all Non-Orchestrator environments.</description>
 <ignore_cache>false</ignore_cache>
 <is_private>false</is_private>
-<name>x_7756_update_set.non_prod_us_deployment_custom_release_table</name>
+<name>x_7756_update_set.non_prod_us_deployment_username</name>
 <read_roles/>
-<suffix>non_prod_us_deployment_custom_release_table</suffix>
+<suffix>non_prod_us_deployment_username</suffix>
 <sys_class_name>sys_properties</sys_class_name>
-<sys_created_by>service_guru_ravish</sys_created_by>
-<sys_created_on>2019-12-25 22:36:09</sys_created_on>
-<sys_id>65155c40dbca441061aecd3f2996196b</sys_id>
-<sys_mod_count>2</sys_mod_count>
-<sys_name>x_7756_update_set.non_prod_us_deployment_custom_release_table</sys_name>
+<sys_created_by>rshetty</sys_created_by>
+<sys_created_on>2019-11-02 20:00:34</sys_created_on>
+<sys_id>0425f67a4f7c0c10ff6ab8de9310c7c1</sys_id>
+<sys_mod_count>11</sys_mod_count>
+<sys_name>x_7756_update_set.non_prod_us_deployment_username</sys_name>
 <sys_package display_value="Auto Deployment - ServiceGuru" source="x_7756_update_set">870d48164fb00810ff6ab8de9310c78e</sys_package>
 <sys_policy/>
 <sys_scope display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</sys_scope>
-<sys_update_name>sys_properties_65155c40dbca441061aecd3f2996196b</sys_update_name>
+<sys_update_name>sys_properties_0425f67a4f7c0c10ff6ab8de9310c7c1</sys_update_name>
 <sys_updated_by>service_guru_ravish</sys_updated_by>
 <sys_updated_on>2019-12-28 21:39:47</sys_updated_on>
 <type>string</type>
 <value/>
 <write_roles/>
 </sys_properties></record_update>]]></payload>
-<payload_hash>94760544</payload_hash>
-<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.2">0c805c26dbc20010c4271461399619b7</remote_update_set>
+<payload_hash>1141959149</payload_hash>
+<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.1">379b0566db8a0010422ee9c94896194f</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>service_guru_ravish</sys_created_by>
-<sys_created_on>2020-01-02 16:40:55</sys_created_on>
-<sys_id>8c805c26dbc20010c4271461399619b9</sys_id>
+<sys_created_on>2020-01-02 20:59:15</sys_created_on>
+<sys_id>f79b0566db8a0010422ee9c948961950</sys_id>
 <sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>16f6313a6370000001</sys_recorded_at>
+<sys_recorded_at>16f67ba8d900000001</sys_recorded_at>
 <sys_updated_by>service_guru_ravish</sys_updated_by>
-<sys_updated_on>2020-01-02 16:40:55</sys_updated_on>
+<sys_updated_on>2020-01-02 20:59:15</sys_updated_on>
 <table/>
-<target_name>x_7756_update_set.non_prod_us_deployment_custom_release_table</target_name>
+<target_name>x_7756_update_set.non_prod_us_deployment_username</target_name>
 <type>System Property</type>
 <update_domain>global</update_domain>
-<update_guid>79c7adb1fc02401048f9ac45f24b0b05</update_guid>
-<update_guid_history>79c7adb1fc02401048f9ac45f24b0b05:94760544,17da71ed11820010f6a34635e1432ee2:534576883,df41ad655b420010648658d862aa2c89:94760544,1ace99a1004200107e6b4093403dfbd4:534576883,518c59e5388640104ab1c35380522fcd:94760544,6e24a1d56a0a0010002567b045679b88:534576883,e7632595910a001004382f34617ed879:94760544,ff70d1151bc60010c6f71dfb83415e82:534576883,358e4d512fc600101f7b306260e56367:94760544,e7014591d98600104cf0718ece8dbb4a:330916695,dddc7c514f468010e10d5abe2bd688d8:414091388,2e3c70517646801091ecd127626aac41:94760544,4af5ac154fc280106fe36f185a617bd1:-824196492,8b6385419d4640102540973379dbc060:534576883,2a7205019d46401077bb4bcb89b4752a:94760544,798eebf8b3ce0010df3d2be21889ff16:330916695,7cf423b855ce401077e147d3d0f140d7:414091388,9ac6ae78c9ca4010d2480699b6c3262b:534576883,8ee89ba885ce00101d5a6336d313ce8b:94760544,15b9c7a86d8e0010a9406897a0da7330:330916695,ad340764d68e001061c70e5ec12cc148:94760544,d8418b60d28e00100829277d0de79c49:330916695,4068322c7b0a00103157c3da72637f2c:94760544,bcf9c62cf846001089d8cb781301b8c0:534576883,ec2fb9e4098a4010541b0f0fd33c874f:-824196492,a73d7d64f48a4010317b5b7c38a7cf71:534576883,332d3d648d8a401067d0d7a89db4414b:94760544,7a0a5deccdc64010e7b80a8058c81eaf:534576883,813c0ed08c4e00108e9283a70b4c11a8:414091388,e46c35d0cc0e001092ec44d64380bafd:330916695,04c2a998ad0e001017d1805507f42f9f:414091388,a5df38d03c8a0010afa41759398960c1:330916695,b1155c4052ca44100a5c2a8fb331eb6f:-824196492</update_guid_history>
+<update_guid>f9c7adb1a102401010ea3a333ecc4814</update_guid>
+<update_guid_history>f9c7adb1a102401010ea3a333ecc4814:1141959149,a7da71edcb820010cd7d41ec160129f1:173264768,5341ad653e420010dd7ad38cb4af4299:1141959149,9ace99a168420010884c1fd3f1ecdce3:173264768,d18c59e5708640101912acce8e51d0dc:1141959149,ee24a1d5e40a00107bf64d805cce0e97:173264768,af632595f00a001076a7ed3331a49488:1141959149,3b70d1159ec60010b1399c6c797dc19e:173264768,318e4d51dfc6001097607cbc04934d77:1141959149,17c0055102860010325523148e73e67b:334803654,11dc7c516646801054ca6170c8c8c8d5:1394354163,e23c7051b046801053f783102f834a51:1141959149,0f638541ef464010a9ecbd1dbfdcbe6f:173264768,ee7205019e46401061c8e87b25595039:1141959149,e18eebf84cce00101adebbd899f1a80a:334803654,30f423b805ce40101c2e54b682aebabf:1394354163,123493388a8e4010716dc47a3f60ad1f:334803654,4a07ee7880ca4010e059809c03b45b4b:1942555711,52c6ae781dca40102deddce1d30e393b:-1617025267,0ae89ba827ce0010173a34f8452907b4:1849154076,09b9c7a8288e0010ea2f9d9b9b287219:1942555711,a5340764eb8e0010e02ed8d59fe3588a:1849154076,dc418b60638e001010d832b500235732:1942555711,8468322c340a0010aac5eaa1b3c1f248:1849154076,3cf9c62c84460010435ea975d228a8d0:-1617025267,f72d3d643f8a4010b1c1afee7cc4845a:1849154076,760a5dec4bc6401058d9dd7dbd79e3bf:-1617025267,b43c0ed05b4e00103cc870f54b799891:-1058216276,606c35d0bc0e0010bd74212eaff4d2f1:-1207489104,b7b2a9983b0e001021c872b48fbf8a91:-1058216276,1d2853b7ddf54410dce8b10cd2e7eefd:-1660395555,fb35dbb38bf5441041a837ea44adf228:417706304,00c3b49fb7718010a53dc02263a60953:-1660395555,5d92fc9b43718010b07f6271b300bca3:-1760992548,038e108b937d0010d8cd4e6635ea4cf8:1096628009,e6b9c79cb931c010bcc190d39de6b6f4:587419896,4439152677650c10459d80d436061936:1619075137,e2d8d1e207650c10af08d0651ab19919:587419896,994ef204a52100505a70f2239fb5bf28:1096628009,60b9fac031edcc10a2fcaf3346a24f7e:312657504,ce35ba7ac07c0c1067480d6f9797da71:-46419538</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_category_ecb7f64c4fadcc10ff6ab8de9310c7c0</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_properties_category action="INSERT_OR_UPDATE"&gt;
+&lt;name&gt;ServiceGuru - Orchestrator Properties&lt;/name&gt;
+&lt;sys_class_name&gt;sys_properties_category&lt;/sys_class_name&gt;
+&lt;sys_created_by&gt;rshetty&lt;/sys_created_by&gt;
+&lt;sys_created_on&gt;2019-12-01 13:55:24&lt;/sys_created_on&gt;
+&lt;sys_id&gt;ecb7f64c4fadcc10ff6ab8de9310c7c0&lt;/sys_id&gt;
+&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;
+&lt;sys_name&gt;ServiceGuru - Orchestrator Properties&lt;/sys_name&gt;
+&lt;sys_package display_value="Auto Deployment - ServiceGuru" source="x_7756_update_set"&gt;870d48164fb00810ff6ab8de9310c78e&lt;/sys_package&gt;
+&lt;sys_policy/&gt;
+&lt;sys_scope display_value="Auto Deployment - ServiceGuru"&gt;870d48164fb00810ff6ab8de9310c78e&lt;/sys_scope&gt;
+&lt;sys_update_name&gt;sys_properties_category_ecb7f64c4fadcc10ff6ab8de9310c7c0&lt;/sys_update_name&gt;
+&lt;sys_updated_by&gt;service_guru_ravish&lt;/sys_updated_by&gt;
+&lt;sys_updated_on&gt;2019-12-25 17:59:38&lt;/sys_updated_on&gt;
+&lt;title&gt;&lt;![CDATA[&lt;p&gt;&lt;span style="color: #ff0000;"&gt;Important: The changes to properties on this page are local to this instance. You will need to perform the same property changes in respective ServiceNow instances where this tool is installed.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Contact: shettyravish&amp;#64;outlook.com for any custom tool modification requests.&lt;/p&gt;]]&gt;&lt;/title&gt;
+&lt;/sys_properties_category&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1101088273</payload_hash>
+<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.1">379b0566db8a0010422ee9c94896194f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>service_guru_ravish</sys_created_by>
+<sys_created_on>2020-01-02 20:59:15</sys_created_on>
+<sys_id>f79b0566db8a0010422ee9c948961953</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16f67ba8db00000001</sys_recorded_at>
+<sys_updated_by>service_guru_ravish</sys_updated_by>
+<sys_updated_on>2020-01-02 20:59:15</sys_updated_on>
+<table/>
+<target_name>ServiceGuru - Orchestrator Properties</target_name>
+<type>System Property Category</type>
+<update_domain>global</update_domain>
+<update_guid>27c7adb1cc024010efd43ac0ee743a2f</update_guid>
+<update_guid_history>27c7adb1cc024010efd43ac0ee743a2f:1101088273,2c41e1651c42001064af4bfa9c48c0dd:1101088273,53eaf095650680100d3c8543639d1787:1101088273,9e824101ec464010cb9201bf2595077d:1101088273,2a4723b00ace0010acf3690900c22adc:-245324031,1fb42378dece401074714839f48a1721:1101088273,bca2fa74100e401086b1e9db9cf388c0:-925065754,36c557b3adf54410c18d5a191071c402:575169992,c9d0937f78b544107a58ccadf159cefe:395183410,848d0fa3603904103e6618d4d17f0c2c:1787384726,897d0fa33e390410c9de82faf240821e:924775898,865d0fa3223904108e3bd9ea2df16429:1785525454,8a4d0fa3c3390410ea0cb86da357011b:1928912411,90fc83a336390410efe4e14be891edfc:655005272,a7dc47a319390410113fbbbe5ee8c2e3:1767150443,919cc7637c390410bd97deca795a486b:1236634010,dad8facc13adcc10f62697149954abe7:-697540721,d5883ecc85adcc1018c75fc74173a8de:-627817623,d428b24c1eadcc10aa7a9d8890469b54:-680274433,53b736c810adcc104ba39db4abdded28:331743269</update_guid_history>
 <update_set display_value=""/>
 <view/>
 </sys_update_xml>
@@ -1049,15 +1217,15 @@ function updateSetAutoDeployJob545454343() {
     }
 }]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sysauto_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;service_guru_ravish&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-12-23 15:25:04&lt;/sys_created_on&gt;&lt;sys_id&gt;4b3fd81fdbfd401061aecd3f29961981&lt;/sys_id&gt;&lt;sys_mod_count&gt;34&lt;/sys_mod_count&gt;&lt;sys_name&gt;ServiceGuru - Deactivate/Activate Components based on Release state&lt;/sys_name&gt;&lt;sys_package display_value="Auto Deployment - ServiceGuru" source="x_7756_update_set"&gt;870d48164fb00810ff6ab8de9310c78e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Auto Deployment - ServiceGuru"&gt;870d48164fb00810ff6ab8de9310c78e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysauto_script_4b3fd81fdbfd401061aecd3f29961981&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;service_guru_ravish&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-12-31 15:07:12&lt;/sys_updated_on&gt;&lt;upgrade_safe&gt;false&lt;/upgrade_safe&gt;&lt;/sysauto_script&gt;&lt;/record_update&gt;</payload>
 <payload_hash>1572304742</payload_hash>
-<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.2">0c805c26dbc20010c4271461399619b7</remote_update_set>
+<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.1">379b0566db8a0010422ee9c94896194f</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>service_guru_ravish</sys_created_by>
-<sys_created_on>2020-01-02 16:40:55</sys_created_on>
-<sys_id>c0805c26dbc20010c4271461399619b8</sys_id>
+<sys_created_on>2020-01-02 20:59:15</sys_created_on>
+<sys_id>fb9b0566db8a0010422ee9c94896194f</sys_id>
 <sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>16f6313a69c0000001</sys_recorded_at>
+<sys_recorded_at>16f67ba8dc30000001</sys_recorded_at>
 <sys_updated_by>service_guru_ravish</sys_updated_by>
-<sys_updated_on>2020-01-02 16:40:55</sys_updated_on>
+<sys_updated_on>2020-01-02 20:59:15</sys_updated_on>
 <table/>
 <target_name>ServiceGuru - Deactivate/Activate Components based on Release state</target_name>
 <type>Scheduled Script Execution</type>
@@ -1098,15 +1266,15 @@ function updateSetAutoDeployJob545454343() {
 <write_roles/>
 </sys_properties></record_update>]]></payload>
 <payload_hash>1970036762</payload_hash>
-<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.2">0c805c26dbc20010c4271461399619b7</remote_update_set>
+<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.1">379b0566db8a0010422ee9c94896194f</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>service_guru_ravish</sys_created_by>
-<sys_created_on>2020-01-02 16:40:55</sys_created_on>
-<sys_id>c0805c26dbc20010c4271461399619bb</sys_id>
+<sys_created_on>2020-01-02 20:59:15</sys_created_on>
+<sys_id>fb9b0566db8a0010422ee9c948961952</sys_id>
 <sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>16f6313a67c0000001</sys_recorded_at>
+<sys_recorded_at>16f67ba8da70000001</sys_recorded_at>
 <sys_updated_by>service_guru_ravish</sys_updated_by>
-<sys_updated_on>2020-01-02 16:40:55</sys_updated_on>
+<sys_updated_on>2020-01-02 20:59:15</sys_updated_on>
 <table/>
 <target_name>x_7756_update_set.service_guru_orchestrator_instance</target_name>
 <type>System Property</type>
@@ -1147,189 +1315,21 @@ function updateSetAutoDeployJob545454343() {
 <write_roles/>
 </sys_properties></record_update>]]></payload>
 <payload_hash>-51013397</payload_hash>
-<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.2">0c805c26dbc20010c4271461399619b7</remote_update_set>
+<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.1">379b0566db8a0010422ee9c94896194f</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>service_guru_ravish</sys_created_by>
-<sys_created_on>2020-01-02 16:40:55</sys_created_on>
-<sys_id>c4805c26dbc20010c4271461399619ba</sys_id>
+<sys_created_on>2020-01-02 20:59:15</sys_created_on>
+<sys_id>ff9b0566db8a0010422ee9c948961951</sys_id>
 <sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>16f6313a6040000001</sys_recorded_at>
+<sys_recorded_at>16f67ba8d4a0000001</sys_recorded_at>
 <sys_updated_by>service_guru_ravish</sys_updated_by>
-<sys_updated_on>2020-01-02 16:40:55</sys_updated_on>
+<sys_updated_on>2020-01-02 20:59:15</sys_updated_on>
 <table/>
 <target_name>x_7756_update_set.digest_emails_group</target_name>
 <type>System Property</type>
 <update_domain>global</update_domain>
 <update_guid>3dc72d71520240105265875bd8e6cc6e</update_guid>
 <update_guid_history>3dc72d71520240105265875bd8e6cc6e:-51013397,dfda71ed6e820010e2f7395ebcfe78c8:1496429517,4341ad652342001096c5028ba921dc7d:-51013397,5ece5561f7420010e21edd4404c33cbd:1496429517,998cd1a5bd864010ee071e3463095da4:-51013397,1a24a1d5260a00101cfc0aa1f609506f:1496429517,2f63a1552c0a0010fa9ff926e32f047e:-51013397,3f70d115d3c60010143b5ef7546b1775:1496429517,b98e4151c5c600102897b9024061e5c9:-51013397,a7014591978600103e8e3083f4ca4548:1395274159,59dc7c516b468010b05619e65278c0db:-1214925363,6e3cfc11104680102e187a6cee9a8a10:-51013397,4b63c141b9464010bdbe4b6342b7bac0:1496429517,ee72c1019e464010b9ec38afeda9290a:-51013397,398eebf89ace00109590ad4e9b146c14:1395274159,3cf423b8ffce40101c9a54336d66aad5:-1214925363,54bd53fccc8e40103bcff36e4a1bc345:1395274159</update_guid_history>
-<update_set display_value=""/>
-<view/>
-</sys_update_xml>
-<sys_update_xml action="INSERT_OR_UPDATE">
-<action>INSERT_OR_UPDATE</action>
-<application display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</application>
-<category>customer</category>
-<comments/>
-<name>sys_properties_56336b434ffc8c10ff6ab8de9310c7cc</name>
-<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_properties action="INSERT_OR_UPDATE">
-<choices/>
-<description>Enter all non orchestrator environments which will be part of this integration. Use a comma as the delimiter to separate each entry (example: dev1,dev2,uat1,uat2). </description>
-<ignore_cache>false</ignore_cache>
-<is_private>false</is_private>
-<name>x_7756_update_set.non_prod_us_deployment_environments</name>
-<read_roles/>
-<suffix>non_prod_us_deployment_environments</suffix>
-<sys_class_name>sys_properties</sys_class_name>
-<sys_created_by>rshetty</sys_created_by>
-<sys_created_on>2019-11-03 18:00:37</sys_created_on>
-<sys_id>56336b434ffc8c10ff6ab8de9310c7cc</sys_id>
-<sys_mod_count>14</sys_mod_count>
-<sys_name>x_7756_update_set.non_prod_us_deployment_environments</sys_name>
-<sys_package display_value="Auto Deployment - ServiceGuru" source="x_7756_update_set">870d48164fb00810ff6ab8de9310c78e</sys_package>
-<sys_policy/>
-<sys_scope display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</sys_scope>
-<sys_update_name>sys_properties_56336b434ffc8c10ff6ab8de9310c7cc</sys_update_name>
-<sys_updated_by>service_guru_ravish</sys_updated_by>
-<sys_updated_on>2019-12-28 21:39:47</sys_updated_on>
-<type>string</type>
-<value/>
-<write_roles/>
-</sys_properties></record_update>]]></payload>
-<payload_hash>1378693002</payload_hash>
-<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.2">0c805c26dbc20010c4271461399619b7</remote_update_set>
-<replace_on_upgrade>false</replace_on_upgrade>
-<sys_created_by>service_guru_ravish</sys_created_by>
-<sys_created_on>2020-01-02 16:40:55</sys_created_on>
-<sys_id>c8805c26dbc20010c4271461399619b9</sys_id>
-<sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>16f6313a6420000001</sys_recorded_at>
-<sys_updated_by>service_guru_ravish</sys_updated_by>
-<sys_updated_on>2020-01-02 16:40:55</sys_updated_on>
-<table/>
-<target_name>x_7756_update_set.non_prod_us_deployment_environments</target_name>
-<type>System Property</type>
-<update_domain>global</update_domain>
-<update_guid>3dc7adb17e024010cabc16d41cb9f609</update_guid>
-<update_guid_history>3dc7adb17e024010cabc16d41cb9f609:1378693002,122bb1ed9e820010b798062026b3480e:2120612124,d7da71edc88200109a7ce7e8941430e6:-224835493,9341ad65fd420010bb11fb3634669e8e:1378693002,49fe99a1d34200101624d7e3d16ff327:1870524317,dace99a17b42001069e621461a4292d8:-224835493,158c59e58c8640107a8fe7e3479ab4d1:1378693002,b3bd74a946c24010a2f6fcdcf6f2e8b1:1870524317,2224a1d5a80a0010687da4a173656a8d:-224835493,ef632595530a0010330791f3f2a6b67d:1378693002,b370d1153bc60010e910d831e6f6c787:-224835493,3d8e4d51bac60010c310bd924213376b:1378693002,5460815127860010c0d4e720e55072f8:1012932403,99dc7c516e468010c37413828b09cad7:1251503650,263c705160468010eaced7c3e4b0a446:1378693002,3d836859608280100c14d7340a8741a4:1012932403,d839549d5c428010a95064fac859a49f:-429423873,4f6385417846401059a36fc706df9164:-224835493,2272050149464010f7c011aff352062f:1378693002,698eabf879ce0010612353d01215aaf9:1012932403,7cf423b828ce40103ec64f990720d0b8:1251503650,26c317f4ad8e40106712a1485029d133:1012932403,4607ee78ccca401045e42a798c0f3445:73615663,5ec6ae78b5ca4010c9d43754ed1cd02f:-2003821188,86e89ba8bace00109bc05c5671b7bc90:389725710,45b9c7a8b88e0010dc1801aee3600015:73615663,6d3407646e8e00104b8cf36c94a38e59:389725710,1c418b60e58e00100319037e4f8fe92e:73615663,8468322c3f0a00101a18ccc5180e9a30:389725710,d3aac26ca74600103640f45a5690401e:-236044597,f0f9c62ce4460010471f02915150b7c5:-2003821188,f32d3d64ff8a401037f7aede4217544f:389725710,68da9920370a40108f459b4fccfad91e:-236044597,720a5dec67c64010732f48d9a6b398b4:-2003821188,f03c0ed05e4e00108a82029be4f6d08d:-2129212386,e46c35d04c0e00109870b99e7bbb3fde:1997343600,fbb2a998e40e0010550b2bf8e81a2b8c:-2129212386,68389bb7ebf54410f3226097632d3456:-404413684,95a49fffe6b5441072a6a7be328f43ba:811400375,347e9c4bd77d001065799898153ed0fd:-1254157343,26b9c79c5131c010b0cf81c6c3edeaee:-1438357709,72c410ba3be94c10c10897af3aa0ff8f:141013816,16b4507a05e94c104457f0cc179c635d:-246748466,cc39112637650c1052330103f5ed9187:229340237,26d811e290650c10f44bbd211293909a:-519892490,feb5552e3f250c105fd515f31175953e:-925324075,de8559ea7f250c1034dedbe9a5443928:-1998511304,a81b3248d3edcc10a166dfcd3169be62:-832330783,c8eafe80b1edcc10ab1f4661d8082db9:-1991210199,a6a3e9b30074c050e646e967c8bd7bba:-2119483794,fe536b4317fc8c105ea2c4ba5d74e596:307542997</update_guid_history>
-<update_set display_value=""/>
-<view/>
-</sys_update_xml>
-<sys_update_xml action="INSERT_OR_UPDATE">
-<action>INSERT_OR_UPDATE</action>
-<application display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</application>
-<category>customer</category>
-<comments/>
-<name>sys_properties_f5633a444f6dcc10ff6ab8de9310c7a1</name>
-<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices>None,Production only,All environments except QA/Dev,All environments except Dev</choices><description>Select the environments which need change request for any deployments&#13;
-Note: Time zone to evaluate the change window is as per the timezone of the user profile which runs the Scheduled job.</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>x_7756_update_set.non_prod_us_deployment_change_requirement_type</name><read_roles/><suffix>non_prod_us_deployment_change_requirement_type</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>rshetty</sys_created_by><sys_created_on>2019-12-01 13:36:28</sys_created_on><sys_id>f5633a444f6dcc10ff6ab8de9310c7a1</sys_id><sys_mod_count>23</sys_mod_count><sys_name>x_7756_update_set.non_prod_us_deployment_change_requirement_type</sys_name><sys_package display_value="Auto Deployment - ServiceGuru" source="x_7756_update_set">870d48164fb00810ff6ab8de9310c78e</sys_package><sys_policy/><sys_scope display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</sys_scope><sys_update_name>sys_properties_f5633a444f6dcc10ff6ab8de9310c7a1</sys_update_name><sys_updated_by>service_guru_ravish</sys_updated_by><sys_updated_on>2020-01-02 16:17:54</sys_updated_on><type>choicelist</type><value>None</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=f5633a444f6dcc10ff6ab8de9310c7a1"/></record_update>]]></payload>
-<payload_hash>-2135658350</payload_hash>
-<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.2">0c805c26dbc20010c4271461399619b7</remote_update_set>
-<replace_on_upgrade>false</replace_on_upgrade>
-<sys_created_by>service_guru_ravish</sys_created_by>
-<sys_created_on>2020-01-02 16:40:56</sys_created_on>
-<sys_id>c8805c26dbc20010c4271461399619bc</sys_id>
-<sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>16f670c96cd0000001</sys_recorded_at>
-<sys_updated_by>service_guru_ravish</sys_updated_by>
-<sys_updated_on>2020-01-02 16:40:56</sys_updated_on>
-<table/>
-<target_name>x_7756_update_set.non_prod_us_deployment_change_requirement_type</target_name>
-<type>System Property</type>
-<update_domain>global</update_domain>
-<update_guid>033b446eca820010c68347f44b32fd31</update_guid>
-<update_guid_history>033b446eca820010c68347f44b32fd31:-2135658350,082b082e18820010506bcac97c67739c:-888663074,551b082ea9820010ae5af7a0c8638849:1877607271,519a802e0d82001062f652a318958ba1:512690696,a39dbbde4e42001021fb3bc9dbfbd4a2:860073762,5018bb9a864200101ca9367c8572fc3e:345186887,6be7779af1420010cc18e8cf80e09b43:-1058309723,8ce7bf5a0a420010988f919759c5046a:345186887,5014f3d26342001039a612d06ef2b7c3:-1269946695,65b3a9127cc24010d7a6a6c1bab13c76:-1251390057,7dc7adb17e0240104ffefa623ebb4407:-1882125593,558c59e5ba864010ae91cb6b411caecf:-1882125593,eb632595d50a001041b16bb444b3d77b:-1882125593,2ab0d5157ec60010d129052bfc040a5d:946197772,398e4d51bcc60010eb318272a4ea7269:-1882125593,ab014591e486001080d4ff7f50530343:946197772,15dcbc51984680100c988f025aae815b:985081219,223c7051e14680103d9984b02b8c8244:-1882125593,7583a4951e8280109fa433630d95ddbf:946197772,087a5011cc82801075a0acd492c159b8:985081219,7e49501ddb428010bdb50d3fd8619421:946197772,2e720501f6464010684cc427740d632c:-1882125593,a68f3cc98e064010db11b24331de2694:946197772,088fb8c9cf064010449dd81f95f780d8:985081219,658eabf87ace0010ab81125e7b9886f1:946197772,0025f2f4920e4010f974845cafb53846:985081219,aa15ba38330e401041ab94670adc5c39:946197772,82e89ba8e6ce0010b898d9cfa03c538e:-1882125593,45b987a8a88e0010d4631b3f7358bfdb:946197772,69340764058e00109e82ef603b032157:-1882125593,18418b602c8e001015164001d3232826:946197772,8468322cc20a0010e1d3cabb013f562e:-1882125593,372d3d64d68a4010c8e9048d3fe0624d:-1882125593,7e0a5dec11c64010b2b0233dead75eb1:-1882125593,bc3c0ed0424e00105e366b5c10bb0484:-198237471,e06c35d03a0e001000818e1b5324d7d6:1600762862,061a5c4422ca4410f8f09e13ff33e2d3:-198237471,8d0beaabe67504101841d37008cde953:1600762862,0b73e6ebd7350410b0161fb51cbae1a9:-30827971,4c0552d0cdb98010fb1917a7319614ef:-853379536,4839152636650c105c7b8c5a186de938:1214284644,7a9d3a408421005086e1dc46a247acdc:622858598,748dfa406c2100504aa9eb5dba55d577:-1559338807,2a6db64c38edcc102f3995b1d8bb6b7f:622858598,246d7ec840edcc1042a57d4959efddaf:-1559338807,831cf6883dedcc10b4e73bee951f89aa:622858598,313a7a04e4edcc10b09129a4cdefa751:1317543879,d5e63e8886adcc10b5cbb267277e65f2:-1195947629,6e633a442b6dcc10eedcc57c29e8bda5:1670026262</update_guid_history>
-<update_set display_value=""/>
-<view/>
-</sys_update_xml>
-<sys_update_xml action="INSERT_OR_UPDATE">
-<action>INSERT_OR_UPDATE</action>
-<application display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</application>
-<category>customer</category>
-<comments/>
-<name>sys_properties_0425f67a4f7c0c10ff6ab8de9310c7c1</name>
-<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_properties action="INSERT_OR_UPDATE">
-<choices/>
-<description>Shared Non Orchestrator Instance credentials (Username) - This property sets the username for the User Profile used for Integration. This same Username and Password combination is used across all Non-Orchestrator environments.</description>
-<ignore_cache>false</ignore_cache>
-<is_private>false</is_private>
-<name>x_7756_update_set.non_prod_us_deployment_username</name>
-<read_roles/>
-<suffix>non_prod_us_deployment_username</suffix>
-<sys_class_name>sys_properties</sys_class_name>
-<sys_created_by>rshetty</sys_created_by>
-<sys_created_on>2019-11-02 20:00:34</sys_created_on>
-<sys_id>0425f67a4f7c0c10ff6ab8de9310c7c1</sys_id>
-<sys_mod_count>11</sys_mod_count>
-<sys_name>x_7756_update_set.non_prod_us_deployment_username</sys_name>
-<sys_package display_value="Auto Deployment - ServiceGuru" source="x_7756_update_set">870d48164fb00810ff6ab8de9310c78e</sys_package>
-<sys_policy/>
-<sys_scope display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</sys_scope>
-<sys_update_name>sys_properties_0425f67a4f7c0c10ff6ab8de9310c7c1</sys_update_name>
-<sys_updated_by>service_guru_ravish</sys_updated_by>
-<sys_updated_on>2019-12-28 21:39:47</sys_updated_on>
-<type>string</type>
-<value/>
-<write_roles/>
-</sys_properties></record_update>]]></payload>
-<payload_hash>1141959149</payload_hash>
-<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.2">0c805c26dbc20010c4271461399619b7</remote_update_set>
-<replace_on_upgrade>false</replace_on_upgrade>
-<sys_created_by>service_guru_ravish</sys_created_by>
-<sys_created_on>2020-01-02 16:40:55</sys_created_on>
-<sys_id>cc805c26dbc20010c4271461399619b8</sys_id>
-<sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>16f6313a6600000001</sys_recorded_at>
-<sys_updated_by>service_guru_ravish</sys_updated_by>
-<sys_updated_on>2020-01-02 16:40:55</sys_updated_on>
-<table/>
-<target_name>x_7756_update_set.non_prod_us_deployment_username</target_name>
-<type>System Property</type>
-<update_domain>global</update_domain>
-<update_guid>f9c7adb1a102401010ea3a333ecc4814</update_guid>
-<update_guid_history>f9c7adb1a102401010ea3a333ecc4814:1141959149,a7da71edcb820010cd7d41ec160129f1:173264768,5341ad653e420010dd7ad38cb4af4299:1141959149,9ace99a168420010884c1fd3f1ecdce3:173264768,d18c59e5708640101912acce8e51d0dc:1141959149,ee24a1d5e40a00107bf64d805cce0e97:173264768,af632595f00a001076a7ed3331a49488:1141959149,3b70d1159ec60010b1399c6c797dc19e:173264768,318e4d51dfc6001097607cbc04934d77:1141959149,17c0055102860010325523148e73e67b:334803654,11dc7c516646801054ca6170c8c8c8d5:1394354163,e23c7051b046801053f783102f834a51:1141959149,0f638541ef464010a9ecbd1dbfdcbe6f:173264768,ee7205019e46401061c8e87b25595039:1141959149,e18eebf84cce00101adebbd899f1a80a:334803654,30f423b805ce40101c2e54b682aebabf:1394354163,123493388a8e4010716dc47a3f60ad1f:334803654,4a07ee7880ca4010e059809c03b45b4b:1942555711,52c6ae781dca40102deddce1d30e393b:-1617025267,0ae89ba827ce0010173a34f8452907b4:1849154076,09b9c7a8288e0010ea2f9d9b9b287219:1942555711,a5340764eb8e0010e02ed8d59fe3588a:1849154076,dc418b60638e001010d832b500235732:1942555711,8468322c340a0010aac5eaa1b3c1f248:1849154076,3cf9c62c84460010435ea975d228a8d0:-1617025267,f72d3d643f8a4010b1c1afee7cc4845a:1849154076,760a5dec4bc6401058d9dd7dbd79e3bf:-1617025267,b43c0ed05b4e00103cc870f54b799891:-1058216276,606c35d0bc0e0010bd74212eaff4d2f1:-1207489104,b7b2a9983b0e001021c872b48fbf8a91:-1058216276,1d2853b7ddf54410dce8b10cd2e7eefd:-1660395555,fb35dbb38bf5441041a837ea44adf228:417706304,00c3b49fb7718010a53dc02263a60953:-1660395555,5d92fc9b43718010b07f6271b300bca3:-1760992548,038e108b937d0010d8cd4e6635ea4cf8:1096628009,e6b9c79cb931c010bcc190d39de6b6f4:587419896,4439152677650c10459d80d436061936:1619075137,e2d8d1e207650c10af08d0651ab19919:587419896,994ef204a52100505a70f2239fb5bf28:1096628009,60b9fac031edcc10a2fcaf3346a24f7e:312657504,ce35ba7ac07c0c1067480d6f9797da71:-46419538</update_guid_history>
-<update_set display_value=""/>
-<view/>
-</sys_update_xml>
-<sys_update_xml action="INSERT_OR_UPDATE">
-<action>INSERT_OR_UPDATE</action>
-<application display_value="Auto Deployment - ServiceGuru">870d48164fb00810ff6ab8de9310c78e</application>
-<category>customer</category>
-<comments/>
-<name>sys_properties_category_ecb7f64c4fadcc10ff6ab8de9310c7c0</name>
-<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_properties_category action="INSERT_OR_UPDATE"&gt;
-&lt;name&gt;ServiceGuru - Orchestrator Properties&lt;/name&gt;
-&lt;sys_class_name&gt;sys_properties_category&lt;/sys_class_name&gt;
-&lt;sys_created_by&gt;rshetty&lt;/sys_created_by&gt;
-&lt;sys_created_on&gt;2019-12-01 13:55:24&lt;/sys_created_on&gt;
-&lt;sys_id&gt;ecb7f64c4fadcc10ff6ab8de9310c7c0&lt;/sys_id&gt;
-&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;
-&lt;sys_name&gt;ServiceGuru - Orchestrator Properties&lt;/sys_name&gt;
-&lt;sys_package display_value="Auto Deployment - ServiceGuru" source="x_7756_update_set"&gt;870d48164fb00810ff6ab8de9310c78e&lt;/sys_package&gt;
-&lt;sys_policy/&gt;
-&lt;sys_scope display_value="Auto Deployment - ServiceGuru"&gt;870d48164fb00810ff6ab8de9310c78e&lt;/sys_scope&gt;
-&lt;sys_update_name&gt;sys_properties_category_ecb7f64c4fadcc10ff6ab8de9310c7c0&lt;/sys_update_name&gt;
-&lt;sys_updated_by&gt;service_guru_ravish&lt;/sys_updated_by&gt;
-&lt;sys_updated_on&gt;2019-12-25 17:59:38&lt;/sys_updated_on&gt;
-&lt;title&gt;&lt;![CDATA[&lt;p&gt;&lt;span style="color: #ff0000;"&gt;Important: The changes to properties on this page are local to this instance. You will need to perform the same property changes in respective ServiceNow instances where this tool is installed.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;Contact: shettyravish&amp;#64;outlook.com for any custom tool modification requests.&lt;/p&gt;]]&gt;&lt;/title&gt;
-&lt;/sys_properties_category&gt;&lt;/record_update&gt;</payload>
-<payload_hash>1101088273</payload_hash>
-<remote_update_set display_value="ServiceGuru-FIRST-TIME-INSTALL-ONLY-v1.2">0c805c26dbc20010c4271461399619b7</remote_update_set>
-<replace_on_upgrade>false</replace_on_upgrade>
-<sys_created_by>service_guru_ravish</sys_created_by>
-<sys_created_on>2020-01-02 16:40:56</sys_created_on>
-<sys_id>cc805c26dbc20010c4271461399619bb</sys_id>
-<sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>16f6313a6850000001</sys_recorded_at>
-<sys_updated_by>service_guru_ravish</sys_updated_by>
-<sys_updated_on>2020-01-02 16:40:56</sys_updated_on>
-<table/>
-<target_name>ServiceGuru - Orchestrator Properties</target_name>
-<type>System Property Category</type>
-<update_domain>global</update_domain>
-<update_guid>27c7adb1cc024010efd43ac0ee743a2f</update_guid>
-<update_guid_history>27c7adb1cc024010efd43ac0ee743a2f:1101088273,2c41e1651c42001064af4bfa9c48c0dd:1101088273,53eaf095650680100d3c8543639d1787:1101088273,9e824101ec464010cb9201bf2595077d:1101088273,2a4723b00ace0010acf3690900c22adc:-245324031,1fb42378dece401074714839f48a1721:1101088273,bca2fa74100e401086b1e9db9cf388c0:-925065754,36c557b3adf54410c18d5a191071c402:575169992,c9d0937f78b544107a58ccadf159cefe:395183410,848d0fa3603904103e6618d4d17f0c2c:1787384726,897d0fa33e390410c9de82faf240821e:924775898,865d0fa3223904108e3bd9ea2df16429:1785525454,8a4d0fa3c3390410ea0cb86da357011b:1928912411,90fc83a336390410efe4e14be891edfc:655005272,a7dc47a319390410113fbbbe5ee8c2e3:1767150443,919cc7637c390410bd97deca795a486b:1236634010,dad8facc13adcc10f62697149954abe7:-697540721,d5883ecc85adcc1018c75fc74173a8de:-627817623,d428b24c1eadcc10aa7a9d8890469b54:-680274433,53b736c810adcc104ba39db4abdded28:331743269</update_guid_history>
 <update_set display_value=""/>
 <view/>
 </sys_update_xml>
