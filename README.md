@@ -8,7 +8,7 @@ Overview: https://youtu.be/eeiy2bo9LFk
 
 Installation steps: https://youtu.be/MQENNl2y2Bs
 
-Also, see attached Installation steps and FAQ/Troubleshooting document.
+Also, see attached Installation steps and the FAQ/Troubleshooting document.
 
 Note: As this is a free tool, the developer or ServiceGuru assumes no liability w.r.t to the tool usage.
 
