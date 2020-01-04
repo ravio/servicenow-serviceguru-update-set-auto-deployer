@@ -2,6 +2,8 @@
 
 This tool is to automate the deployment of update sets and scripts in ServiceNow environments.
 
+ServiceNow environment compatibility: Developed and Tested in Madrid and New york but should also work in other versions.
+
 Watch below video for:
 
 Overview: https://youtu.be/eeiy2bo9LFk
