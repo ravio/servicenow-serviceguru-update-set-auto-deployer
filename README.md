@@ -1,6 +1,6 @@
 # servicenow-serviceguru-update-set-auto-deployer
 
-This tool is to automate the deployment of update sets and scripts in ServiceNow environments.
+This tool is to track and automate the deployment of update sets and scripts in ServiceNow environments.
 
 ServiceNow environment compatibility: Developed and Tested in Madrid and New york but should also work in other versions.
 
