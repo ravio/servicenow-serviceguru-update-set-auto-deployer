@@ -14,7 +14,7 @@ Also, see attached Installation steps and the FAQ/Troubleshooting document.
 
 Note: As this is a free tool, the developer or ServiceGuru assumes no liability w.r.t to the tool usage.
 
-If you are installing this for the first time, please ensure this dependency is installed.
+If you are installing this for the first time, please ensure the dependency update set (ServiceGuru-FIRST-TIME-INSTALL-ONLY) is installed too. For later app upgrades, the dependency is not needed.
 
 Compatibility information is as below
 
